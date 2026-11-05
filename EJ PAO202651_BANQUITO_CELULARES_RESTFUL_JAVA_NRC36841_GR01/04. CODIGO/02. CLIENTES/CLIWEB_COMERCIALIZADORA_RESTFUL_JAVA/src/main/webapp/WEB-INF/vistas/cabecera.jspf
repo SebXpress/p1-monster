@@ -1,0 +1,17 @@
+<%-- Fragmento: cabecera, menú y mensajes (se incluye en todas las vistas) --%>
+<header>
+    <img src="img/monster.png" class="mini" alt="Monster" onerror="this.outerHTML='<div class=&quot;mini ph&quot;>M</div>'">
+    <h1>Comercializadora Monster<small>Venta de teléfonos celulares · Crédito directo Banco BanQuito · Cliente WEB · Grupo 1 · NRC 36841</small></h1>
+</header>
+<nav class="menu">
+    <a href="catalogo" class="${menu == 'catalogo' ? 'activo' : ''}">📱 Catálogo</a>
+    <a href="facturar" class="${menu == 'facturar' ? 'activo' : ''}">🧾 Facturar</a>
+    <a href="amortizacion" class="${menu == 'amortizacion' ? 'activo' : ''}">📊 Tabla de amortización</a>
+    <a href="facturas" class="${menu == 'facturas' ? 'activo' : ''}">📚 Facturas</a>
+</nav>
+<c:if test="${not empty ok or not empty error}">
+    <div style="max-width:1240px;margin:16px auto 0;padding:0 24px">
+        <c:if test="${not empty ok}"><div class="msg ok">✔ <c:out value="${ok}"/></div></c:if>
+        <c:if test="${not empty error}"><div class="msg error">✖ <c:out value="${error}"/></div></c:if>
+    </div>
+</c:if>

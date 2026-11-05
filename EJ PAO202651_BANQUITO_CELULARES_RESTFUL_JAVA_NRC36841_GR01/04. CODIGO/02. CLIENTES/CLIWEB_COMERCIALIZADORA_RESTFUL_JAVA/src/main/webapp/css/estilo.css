@@ -1,0 +1,91 @@
+/* Cliente WEB - Comercializadora Monster (celulares) - Grupo 1 NRC 36841 */
+:root{--fondo:#0b1426;--panel:#13213b;--panel2:#1a2b4b;--borde:#24395f;--texto:#e8eefb;--tenue:#8fa3c7;
+  --azul:#3d8bfd;--cian:#2dd4bf;--verde:#22c55e;--rojo:#f43f5e;--amarillo:#fbbf24;--dorado:#f5b841;--c:var(--dorado)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",Roboto,Arial,sans-serif;color:var(--texto);min-height:100vh;
+  background:radial-gradient(1100px 600px at 0% -20%,#1d3561 0,transparent 60%),radial-gradient(900px 500px at 110% 120%,#123a3a 0,transparent 60%),var(--fondo)}
+a{color:inherit;text-decoration:none}
+.tarjeta{background:var(--panel);border:1px solid var(--borde);border-radius:20px;padding:28px;animation:aparecer .6s both}
+.tarjeta.error{border-color:var(--rojo);animation:temblor .45s}
+@keyframes aparecer{from{opacity:0;transform:translateY(16px)}}
+@keyframes temblor{20%,60%{transform:translateX(-9px)}40%,80%{transform:translateX(9px)}}
+label{font-size:13px;color:var(--tenue);margin-top:6px}
+input,select{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--borde);background:#0e1a30;color:var(--texto);font-size:15px;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus{outline:none;border-color:var(--c);box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 30%,transparent)}
+.btn{padding:13px 18px;border:0;border-radius:12px;background:var(--c);color:#06101f;font-weight:800;font-size:15px;cursor:pointer;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.1)} .btn:active{transform:translateY(0)}
+.btn.rojo{--c:var(--rojo)} .btn.sec{background:var(--panel2);color:var(--texto);border:1px solid var(--borde)}
+.msg{font-size:14px;padding:10px 12px;border-radius:10px;margin-top:6px;animation:aparecer .4s both}
+.msg.error{background:rgba(244,63,94,.12);color:#fda4af;border:1px solid rgba(244,63,94,.4)}
+.msg.ok{background:rgba(34,197,94,.12);color:#86efac;border:1px solid rgba(34,197,94,.4)}
+details{margin-top:8px;color:var(--tenue);font-size:13px} details input{margin-top:6px;font-size:12px}
+/* ---------- Estructura ---------- */
+header{display:flex;align-items:center;gap:14px;padding:14px 26px;border-bottom:1px solid var(--borde);background:rgba(11,20,38,.75);backdrop-filter:blur(6px);position:sticky;top:0;z-index:5}
+header .mini{width:52px;height:52px;border-radius:14px;object-fit:cover;border:2px solid var(--dorado);background:var(--panel2)}
+header .mini.ph{display:grid;place-items:center;font-weight:800;font-size:24px;color:var(--azul)}
+header h1{font-size:20px;color:var(--dorado)} header h1 small{display:block;font-size:12px;color:var(--cian);font-weight:400}
+header .usuario{margin-left:auto;display:flex;align-items:center;gap:14px}
+main{max-width:1240px;margin:0 auto;padding:24px;display:grid;gap:22px}
+.dos-col{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.col-form{display:grid;grid-template-columns:1.5fr 1fr;gap:22px;align-items:start}
+nav.menu{display:flex;gap:8px;padding:0 26px;background:rgba(11,20,38,.6);border-bottom:1px solid var(--borde)}
+nav.menu a{padding:13px 18px;color:var(--tenue);font-weight:600;border-bottom:3px solid transparent;transition:all .2s}
+nav.menu a:hover{color:var(--texto)} nav.menu a.activo{color:var(--dorado);border-bottom-color:var(--dorado)}
+.resumen{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.kpi{position:relative;overflow:hidden;border-left:4px solid var(--c)}
+.kpi::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:var(--c);opacity:.12}
+.kpi .et{color:var(--tenue);font-size:13px} .kpi .num{font-size:32px;font-weight:800;margin-top:6px;color:var(--c);font-variant-numeric:tabular-nums}
+.kpi:nth-child(2){animation-delay:.08s}.kpi:nth-child(3){animation-delay:.16s}
+.k-azul{--c:var(--azul)} .k-verde{--c:var(--verde)} .k-cian{--c:var(--cian)}
+.der{text-align:right;font-variant-numeric:tabular-nums} .ing{color:var(--verde)} .sal{color:var(--rojo)}
+.estado-ACTIVO{color:var(--verde);font-weight:700} .estado-CANCELADO,.estado-ANULADO{color:var(--rojo);font-weight:700}
+.tipos{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.tipos a{padding:12px;border-radius:12px;background:var(--panel2);border:1px solid var(--borde);text-align:center;font-weight:700;transition:all .2s}
+.tipos a:hover{border-color:var(--c);transform:translateY(-2px)}
+.tipos a.activa{background:var(--c);color:#06101f;border-color:var(--c);box-shadow:0 8px 24px color-mix(in srgb,var(--c) 35%,transparent)}
+.comprobante{border-radius:18px;border:2px solid var(--c);background:var(--panel2);padding:24px;animation:latido .6s}
+.comprobante .num{font-size:40px;font-weight:800;color:var(--c);font-variant-numeric:tabular-nums}
+.comprobante dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin-top:14px;font-size:14px} .comprobante dt{color:var(--tenue)}
+.comprobante.vacio{border-style:dashed;border-color:var(--borde);animation:none;color:var(--tenue);text-align:center;padding:50px 20px}
+.saldo-grande{font-size:38px;font-weight:800;color:var(--verde);margin:6px 0;font-variant-numeric:tabular-nums}
+.barra-busqueda{display:flex;gap:10px;margin-bottom:12px} .barra-busqueda input{flex:1}
+.form-cli{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px} .form-cli .full{grid-column:1/-1}
+.acciones{display:flex;gap:10px;margin-top:14px} .acciones .btn{flex:1}
+tbody tr.sel{background:color-mix(in srgb,var(--dorado) 18%,transparent)}
+a.fila-link{display:block}
+.contar{font-variant-numeric:tabular-nums}
+@media(max-width:900px){.dos-col,.col-form,.resumen{grid-template-columns:1fr}nav.menu{overflow:auto}}
+h2{font-size:16px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:9px 8px;border-bottom:1px solid var(--borde);text-align:left} th{color:var(--tenue);font-weight:600}
+tbody tr{animation:aparecer .4s both} tbody tr:hover{background:var(--panel2)}
+.chip{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--c);color:#06101f}
+.vacio-hist{color:var(--tenue);text-align:center;padding:30px}
+footer{text-align:center;color:var(--tenue);font-size:12px;padding:18px}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+/* ---------- Comercializadora ---------- */
+textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--borde);background:#0e1a30;color:var(--texto);font:inherit;font-size:14px;resize:vertical}
+.chk{display:flex;align-items:center;gap:6px;color:var(--tenue);font-size:13px;white-space:nowrap} .chk input{width:auto}
+.btn.mini{padding:6px 10px;font-size:12px;border-radius:9px} .btn.cian{--c:var(--cian)} .btn.verde{--c:var(--verde)} .btn.azul{--c:var(--azul)}
+.fila-agregar{display:grid;grid-template-columns:1fr 90px auto;gap:10px;align-items:end;margin-bottom:12px}
+.totales{display:grid;grid-template-columns:auto auto;gap:6px 22px;justify-content:end;margin-top:16px;font-variant-numeric:tabular-nums}
+.totales dt{color:var(--tenue)} .totales dd{text-align:right;font-weight:700} .totales .gran{font-size:30px;color:var(--dorado)}
+.totales .cuota{color:var(--cian);font-weight:600}
+.pago{display:grid;gap:10px;margin-top:8px}
+.pago label.op{display:flex;gap:10px;align-items:center;padding:12px 14px;border-radius:12px;background:var(--panel2);border:1px solid var(--borde);color:var(--texto);font-size:14px;cursor:pointer;margin:0}
+.pago label.op input{width:auto} .pago label.op:has(input:checked){border-color:var(--c);box-shadow:0 0 0 2px color-mix(in srgb,var(--c) 35%,transparent)}
+.op-ef{--c:var(--verde)} .op-cr{--c:var(--cian)}
+.credito-fila{display:grid;grid-template-columns:110px 1fr;gap:10px;align-items:end}
+.eval{border-radius:12px;padding:12px 14px;font-size:13px;line-height:1.5;margin-top:6px}
+.eval.si{background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.4);color:#86efac}
+.eval.no{background:rgba(244,63,94,.12);border:1px solid rgba(244,63,94,.4);color:#fda4af}
+.factura-cab{display:flex;gap:18px;align-items:center} .factura-cab img{width:70px;height:70px;border-radius:16px;border:2px solid var(--dorado);object-fit:cover}
+.factura-cab h2{font-size:22px;color:var(--dorado);margin:0}
+.factura-cab dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14px} .factura-cab dt{color:var(--tenue)}
+.res-credito{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.res-credito div{background:var(--panel2);border:1px solid var(--borde);border-radius:12px;padding:12px}
+.res-credito span{display:block;color:var(--tenue);font-size:12px} .res-credito b{font-size:20px;font-variant-numeric:tabular-nums}
+.res-credito .cuota b{color:var(--cian)}
+.forma-EFECTIVO{--c:var(--verde)} .forma-CREDITO{--c:var(--cian)}
+tr.sel td{background:color-mix(in srgb,var(--dorado) 16%,transparent)}
+@media(max-width:900px){.res-credito{grid-template-columns:1fr 1fr}}

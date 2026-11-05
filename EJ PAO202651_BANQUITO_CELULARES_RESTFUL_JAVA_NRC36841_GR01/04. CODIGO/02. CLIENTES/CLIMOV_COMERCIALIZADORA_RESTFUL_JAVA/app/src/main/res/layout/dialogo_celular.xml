@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Formulario para crear o editar un celular del catálogo -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/panel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/Etiqueta" android:text="Marca *" />
+        <EditText android:id="@+id/txtMarca" style="@style/Campo" android:hint="Ej.: Samsung" android:inputType="textCapWords" />
+
+        <TextView style="@style/Etiqueta" android:text="Modelo *" />
+        <EditText android:id="@+id/txtModelo" style="@style/Campo" android:hint="Ej.: Galaxy A55" android:inputType="text" />
+
+        <TextView style="@style/Etiqueta" android:text="Descripción" />
+        <EditText android:id="@+id/txtDescripcion" style="@style/Campo" android:inputType="textMultiLine" android:minLines="2" />
+
+        <TextView style="@style/Etiqueta" android:text="Precio de venta (USD) *" />
+        <EditText android:id="@+id/txtPrecio" style="@style/Campo" android:inputType="numberDecimal" />
+
+        <TextView style="@style/Etiqueta" android:text="Estado" />
+        <Spinner android:id="@+id/cboEstado" android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="4dp" android:background="@drawable/campo" android:popupBackground="@color/panel2" />
+
+        <TextView
+            android:id="@+id/lblError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/rojo"
+            android:textSize="13sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

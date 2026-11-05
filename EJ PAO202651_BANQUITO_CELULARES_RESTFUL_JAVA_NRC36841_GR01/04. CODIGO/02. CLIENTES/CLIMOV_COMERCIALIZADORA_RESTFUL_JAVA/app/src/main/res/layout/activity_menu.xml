@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pantalla de inicio: Monster, URL del servidor y menú de opciones -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical">
+
+    <include layout="@layout/cabecera" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgMonster"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/marco_monster"
+                android:contentDescription="Monster"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/monster" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Venta de teléfonos celulares\nEfectivo 42 % de descuento · Crédito directo Banco BanQuito"
+                android:textColor="@color/tenue"
+                android:textSize="13sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCatalogo"
+                style="@style/BotonMenu"
+                android:backgroundTint="@color/azul"
+                android:text="📱  Catálogo de celulares" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFacturar"
+                style="@style/BotonMenu"
+                android:backgroundTint="@color/verde"
+                android:text="🧾  Facturar venta" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAmortizacion"
+                style="@style/BotonMenu"
+                android:backgroundTint="@color/cian"
+                android:text="📊  Tabla de amortización" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFacturas"
+                style="@style/BotonMenu"
+                android:backgroundTint="@color/dorado"
+                android:text="📚  Facturas emitidas" />
+
+            <LinearLayout
+                android:id="@+id/tarjetaServidor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/tarjeta"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/Etiqueta"
+                    android:text="URL del servidor de la comercializadora" />
+
+                <EditText
+                    android:id="@+id/txtServidor"
+                    style="@style/Campo"
+                    android:inputType="textUri"
+                    android:textSize="13sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGuardarUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/panel2"
+                    android:text="Guardar y probar conexión"
+                    android:textColor="@color/texto"
+                    app:cornerRadius="12dp" />
+
+                <TextView
+                    android:id="@+id/lblMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/tenue"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Grupo 1 · NRC 36841 · RESTful Java"
+                android:textColor="@color/tenue"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<%-- Fragmento: pie de página y animación de cifras --%>
+<footer>Servidor: <c:out value="${servidor}"/> · Payara Server 7 · Jakarta EE 11 · MariaDB · Crédito 16.5 % anual, 3 a 18 meses · Efectivo 42 % de descuento</footer>
+<script>
+    // Las cifras con clase "contar" suben animadas hasta su valor final
+    document.querySelectorAll(".contar").forEach(el => {
+        const fin = parseFloat(el.dataset.valor), t0 = performance.now();
+        const fmt = v => v.toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+        (function paso(t) {
+            const k = Math.min((t - t0) / 900, 1), s = 1 - Math.pow(1 - k, 3);
+            el.textContent = fmt(fin * s);
+            if (k < 1) requestAnimationFrame(paso); else el.textContent = fmt(fin);
+        })(t0);
+    });
+</script>

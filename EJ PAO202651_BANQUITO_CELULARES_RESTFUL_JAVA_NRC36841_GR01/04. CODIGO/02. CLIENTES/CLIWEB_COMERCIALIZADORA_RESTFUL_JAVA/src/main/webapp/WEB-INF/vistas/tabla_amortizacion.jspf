@@ -1,0 +1,29 @@
+<%-- Fragmento: resumen y tabla de amortización del crédito en ${credito} --%>
+<h2>📊 Crédito N.º ${credito.codigoCredito} · ${credito.numeroCuotas} meses ·
+    <fmt:formatNumber value="${credito.tasaAnual}" pattern="0.00"/> % anual ·
+    <span class="estado-${credito.estado}">${credito.estado}</span></h2>
+<div class="res-credito">
+    <div><span>Monto financiado</span><b>$ <fmt:formatNumber value="${credito.monto}" pattern="#,##0.00"/></b></div>
+    <div class="cuota"><span>Cuota fija mensual</span><b>$ <fmt:formatNumber value="${credito.cuota}" pattern="#,##0.00"/></b></div>
+    <div><span>Total intereses</span><b>$ <fmt:formatNumber value="${credito.totalIntereses}" pattern="#,##0.00"/></b></div>
+    <div><span>Total a pagar</span><b>$ <fmt:formatNumber value="${credito.totalPagar}" pattern="#,##0.00"/></b></div>
+</div>
+<table>
+    <thead><tr><th># Cuota</th><th class="der">Valor Cuota</th><th class="der">Interés Pagado</th><th class="der">Capital Pagado</th><th class="der">Saldo</th></tr></thead>
+    <tbody>
+    <c:forEach items="${credito.tabla}" var="q" varStatus="st">
+        <tr style="animation-delay:${st.index * 0.03}s">
+            <td>${q.numeroCuota}</td>
+            <c:choose>
+                <c:when test="${q.numeroCuota == 0}"><td></td><td></td><td></td></c:when>
+                <c:otherwise>
+                    <td class="der"><fmt:formatNumber value="${q.valorCuota}" pattern="#,##0.00"/></td>
+                    <td class="der"><fmt:formatNumber value="${q.interesPagado}" pattern="#,##0.00"/></td>
+                    <td class="der"><fmt:formatNumber value="${q.capitalPagado}" pattern="#,##0.00"/></td>
+                </c:otherwise>
+            </c:choose>
+            <td class="der"><fmt:formatNumber value="${q.saldo}" pattern="#,##0.00"/></td>
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>

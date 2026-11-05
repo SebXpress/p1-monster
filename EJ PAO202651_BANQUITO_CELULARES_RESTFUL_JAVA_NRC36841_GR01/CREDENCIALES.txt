@@ -1,0 +1,26 @@
+BASE DE DATOS (MariaDB)
+  Host: localhost   Puerto: 3307   Usuario: root   Clave: rootroot
+  Scripts (03. BDD), en este orden:
+    01_Crea_BD_BanQuito_Core.sql
+    02_Carga_Datos_BanQuito_Core.sql
+    03_Crea_BD_Comercializadora.sql
+    04_Carga_Datos_Comercializadora.sql
+
+URLS (Payara 7, puerto 8080)
+  Core BanQuito (panel de prueba): http://localhost:8080/WS_BANQUITO_CORE_RESTFUL_JAVA/
+  API Core:                        http://localhost:8080/WS_BANQUITO_CORE_RESTFUL_JAVA/api/creditos
+  API Comercializadora:            http://localhost:8080/WS_COMERCIALIZADORA_RESTFUL_JAVA/api
+  Cliente web:                     http://localhost:8080/CLIWEB_COMERCIALIZADORA_RESTFUL_JAVA/
+  Android (emulador):              http://10.0.2.2:8080/WS_COMERCIALIZADORA_RESTFUL_JAVA/api
+
+CLIENTES DE PRUEBA DEL BANCO (cédula -> resultado esperado)
+  1723456719  María López       -> sujeto, monto máximo 1440.00
+  1719834564  Carlos Pérez      -> sujeto, monto máximo 1080.00
+  0955123401  Ana Torres        -> sujeto, monto máximo 810.00
+  0144219870  Jorge Andrade     -> sujeto, monto máximo 1800.00 (ejemplo 450 a 6 meses = 78.65)
+  1730543210  Diego Mora        -> NO: hombre menor de 25 años
+  1822109847  Patricia Vaca     -> NO: sin depósitos en el último mes
+  1711002343  Luis Castro       -> NO: ya tiene un crédito activo
+  1033456789  Gabriela Ruiz     -> sujeto, pero monto máximo 90.00 (no le alcanza)
+
+Las aplicaciones no tienen inicio de sesión (el enunciado no lo pide).

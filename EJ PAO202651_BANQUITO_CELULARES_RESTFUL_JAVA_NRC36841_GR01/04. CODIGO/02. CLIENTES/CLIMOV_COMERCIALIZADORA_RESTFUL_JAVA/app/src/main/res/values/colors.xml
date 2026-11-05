@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo">#0B1426</color>
+    <color name="fondo2">#1D3561</color>
+    <color name="panel">#13213B</color>
+    <color name="panel2">#1A2B4B</color>
+    <color name="borde">#24395F</color>
+    <color name="texto">#E8EEFB</color>
+    <color name="tenue">#8FA3C7</color>
+    <color name="azul">#3D8BFD</color>
+    <color name="cian">#2DD4BF</color>
+    <color name="verde">#22C55E</color>
+    <color name="rojo">#F43F5E</color>
+    <color name="amarillo">#FBBF24</color>
+    <color name="dorado">#F5B841</color>
+    <color name="oscuro">#06101F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

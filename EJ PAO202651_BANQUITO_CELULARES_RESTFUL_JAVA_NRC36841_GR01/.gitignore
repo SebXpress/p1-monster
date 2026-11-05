@@ -1,0 +1,8 @@
+target/
+build/
+.gradle/
+local.properties
+*.class
+nbproject/private/
+.idea/
+*.iml
