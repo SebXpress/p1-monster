@@ -1,0 +1,3973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{98D20DAE-5FE5-464C-9D1C-7E12A971F2F3}" Label="" LastModificationDate="1793053587" Name="SEC_05_Consultar_Creditos" Objects="110" Symbols="61" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.5.0.3982"?>
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+  <o:RootObject Id="o1">
+    <c:Children>
+      <o:Model Id="o2">
+        <a:ObjectID>98D20DAE-5FE5-464C-9D1C-7E12A971F2F3</a:ObjectID>
+        <a:Name>SEC_05_Consultar_Creditos</a:Name>
+        <a:Code>SEC_05_Consultar_Creditos</a:Code>
+        <a:CreationDate>1607389956</a:CreationDate>
+        <a:Creator>l</a:Creator>
+        <a:ModificationDate>1776651939</a:ModificationDate>
+        <a:Modifier>Jhon Santos</a:Modifier>
+        <a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+        <a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=Yes
+UseTerm=No
+EnableRequirements=No
+EnableFullShortcut=Yes
+SynchroCode=Yes
+ShowClss=No
+DeftAttr=int
+DeftMthd=int
+DeftParm=int
+DeftCont=java.util.Collection
+DomnDttp=Yes
+DomnChck=No
+DomnRule=No
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=No
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar="\/:*?&lt;&gt;|"
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_. "
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No</a:ModelOptionsText>
+        <c:ObjectLanguage>
+          <o:Shortcut Id="o3">
+            <a:ObjectID>4DF814C9-A9CB-413E-B3BF-33BEC6F8BBF3</a:ObjectID>
+            <a:Name>Java</a:Name>
+            <a:Code>Java</a:Code>
+            <a:CreationDate>1607389956</a:CreationDate>
+            <a:Creator>l</a:Creator>
+            <a:ModificationDate>1607389956</a:ModificationDate>
+            <a:Modifier>l</a:Modifier>
+            <a:TargetStereotype />
+            <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
+            <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+          </o:Shortcut>
+        </c:ObjectLanguage>
+        <c:ExtendedModelDefinitions>
+          <o:Shortcut Id="o4">
+            <a:ObjectID>B8F74166-D67F-486C-B118-EA5AE2945685</a:ObjectID>
+            <a:Name>WSDL for Java</a:Name>
+            <a:Code>WSDLJava</a:Code>
+            <a:CreationDate>1607389956</a:CreationDate>
+            <a:Creator>l</a:Creator>
+            <a:ModificationDate>1607389956</a:ModificationDate>
+            <a:Modifier>l</a:Modifier>
+            <a:TargetStereotype />
+            <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
+            <a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
+          </o:Shortcut>
+        </c:ExtendedModelDefinitions>
+        <c:TargetModels>
+          <o:TargetModel Id="o70">
+            <a:ObjectID>B67F0980-12C4-4B19-AA5F-D652B8BF2700</a:ObjectID>
+            <a:Name>Java</a:Name>
+            <a:Code>Java</a:Code>
+            <a:CreationDate>1607389956</a:CreationDate>
+            <a:Creator>l</a:Creator>
+            <a:ModificationDate>1793053587</a:ModificationDate>
+            <a:Modifier>sebas</a:Modifier>
+            <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
+            <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
+            <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+            <a:TargetModelLastModificationDate>1302065259</a:TargetModelLastModificationDate>
+            <c:SessionShortcuts>
+              <o:Shortcut Ref="o3" />
+            </c:SessionShortcuts>
+          </o:TargetModel>
+          <o:TargetModel Id="o71">
+            <a:ObjectID>22FC7E13-0C4E-491A-B1A6-D29F0CCF3AA4</a:ObjectID>
+            <a:Name>WSDL for Java</a:Name>
+            <a:Code>WSDLJava</a:Code>
+            <a:CreationDate>1607389956</a:CreationDate>
+            <a:Creator>l</a:Creator>
+            <a:ModificationDate>1793053587</a:ModificationDate>
+            <a:Modifier>sebas</a:Modifier>
+            <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
+            <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
+            <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
+            <a:TargetModelLastModificationDate>1096028631</a:TargetModelLastModificationDate>
+            <c:SessionShortcuts>
+              <o:Shortcut Ref="o4" />
+            </c:SessionShortcuts>
+          </o:TargetModel>
+        </c:TargetModels>
+        <c:SequenceDiagrams>
+          <o:SequenceDiagram Id="o10001">
+            <a:ObjectID>37B06A22-E489-4B34-9A47-0804CCB8C337</a:ObjectID>
+            <a:Name>01_Exito</a:Name>
+            <a:Code>01_Exito_o10001</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\SQD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=No
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=No
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!""#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Object Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+ExtDpdShowStrn=Yes
+ExtendedDependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="Yes" Display="HorizontalRadios" &gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Location" Attribute="LocationOrName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Display Model Version=Yes
+InteractionSymbol.IconPicture=No
+InteractionSymbol.TextStyle=No
+InteractionSymbol_SymbolLayout=
+UMLObject.Stereotype=Yes
+UMLObject.HeaderAlwaysVisible=Yes
+UMLObject.IconPicture=No
+UMLObject.TextStyle=No
+UMLObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ActivationSymbol.IconPicture=No
+ActivationSymbol.TextStyle=No
+ActivationSymbol_SymbolLayout=
+Actor.Stereotype=Yes
+Actor.IconPicture=No
+Actor.TextStyle=No
+Actor_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+InteractionReference.IconPicture=No
+InteractionReference.TextStyle=No
+InteractionReference_SymbolLayout=
+InteractionFragment.IconPicture=No
+InteractionFragment.TextStyle=No
+InteractionFragment_SymbolLayout=
+Message.BeginTime=Yes
+Message.Stereotype=Yes
+Message.NameOrCode=No
+Message.NameOrOper=No
+Message.OperAndArgs=No
+Message.CondAndOper=No
+Message.CondOperAndSign=Yes
+Message.EndTime=Yes
+Message.ActivationAttachment=No
+Message_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF]  &lt;StandardAttribute Name="Begin Time" Attribute="BeginTime" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="NameOrCode" Prefix="" Suffix="" Caption="Name" Mandatory="No" /&gt;[CRLF]  &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="No" Display="VerticalRadios" &gt;[CRLF]   &lt;StandardAttribute Name="Operation name" Attribute="NameOrOper" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Operation name with signature" Attribute="OperAndArgs" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Sequence expression and operation name" Attribute="CondAndOper" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Sequence expression and operation name with signature" Attribute="CondOperAndSign" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF]  &lt;StandardAttribute Name="End Time" Attribute="EndTime" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+IRefShowStrn=Yes
+FragShowLife=Yes
+ShowIntrSym=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=-1
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SINT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=22000
+Height=28800
+Brush color=255 255 255
+Fill Color=No
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDOBJT]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0 0 0
+DISPNAMEFont=Arial,8,U
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ACTVSYM]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=900
+Height=2400
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\UCDACTR]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IREF]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=1031
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IFRG]
+KWRDFont=Arial,8,N
+KWRDFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=208 208 232
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDMSSG]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+            <a:PaperSize>(8268, 11693)</a:PaperSize>
+            <a:PageMargins>((315,354), (433,354))</a:PageMargins>
+            <a:PageOrientation>1</a:PageOrientation>
+            <a:PaperSource>261</a:PaperSource>
+            <a:Comment>Escenario: encontrado; cada crédito (una iteración representativa). Las referencias CU son subinteracciones descritas en los otros modelos; los bucles muestran una iteración.</a:Comment>
+            <c:Symbols>
+              <o:InteractionSymbol Id="o10002">
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:Rect>((-11500,-51000), (101500,11000))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:BaseSymbol.Flags>4</a:BaseSymbol.Flags>
+                <a:LineColor>15257808</a:LineColor>
+                <a:FillColor>16777215</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>4</a:BrushStyle>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:SequenceDiagram Ref="o10001" />
+                </c:Object>
+              </o:InteractionSymbol>
+              <o:ActorSequenceSymbol Id="o10004">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-7000,4400), (7000,7600))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:LineWidth>1</a:LineWidth>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Actor Ref="o10003" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10005">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((-400,-48000), (400,4400))</a:Rect>
+                    <a:ListOfPoints>((0,4400),(0,-48000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:ActorSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10007">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,4400), (25000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10006" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10008">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((17600,-48000), (18400,4400))</a:Rect>
+                    <a:ListOfPoints>((18000,4400),(18000,-48000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10010">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((29000,4400), (43000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10009" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10011">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((35600,-48000), (36400,4400))</a:Rect>
+                    <a:ListOfPoints>((36000,4400),(36000,-48000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10013">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((47000,4400), (61000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10012" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10014">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((53600,-48000), (54400,4400))</a:Rect>
+                    <a:ListOfPoints>((54000,4400),(54000,-48000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10016">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((65000,4400), (79000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10015" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10017">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((71600,-48000), (72400,4400))</a:Rect>
+                    <a:ListOfPoints>((72000,4400),(72000,-48000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10019">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((83000,4400), (97000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10018" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10020">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((89600,-48000), (90400,4400))</a:Rect>
+                    <a:ListOfPoints>((90000,4400),(90000,-48000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:MessageSymbol Id="o10022">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((-500,-500), (20000,500))</a:Rect>
+                <a:ListOfPoints>((0,0),(18000,0))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10021" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActorSequenceSymbol Ref="o10004" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10007" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10024">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((17500,-4500), (38000,-3500))</a:Rect>
+                <a:ListOfPoints>((18000,-4000),(36000,-4000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10023" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10007" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10026">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-10200), (42500,-7500))</a:Rect>
+                <a:ListOfPoints>((36000,-8000),(42000,-8000),(42000,-9800),(36000,-9800))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10025" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10028">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-12500), (56000,-11500))</a:Rect>
+                <a:ListOfPoints>((36000,-12000),(54000,-12000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10027" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10013" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10030">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-16500), (56000,-15500))</a:Rect>
+                <a:ListOfPoints>((54000,-16000),(36000,-16000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10029" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10013" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10032">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-20500), (92000,-19500))</a:Rect>
+                <a:ListOfPoints>((36000,-20000),(90000,-20000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10031" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10019" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10034">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((89500,-26200), (96500,-23500))</a:Rect>
+                <a:ListOfPoints>((90000,-24000),(96000,-24000),(96000,-25800),(90000,-25800))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10033" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10019" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10019" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10036">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-28500), (92000,-27500))</a:Rect>
+                <a:ListOfPoints>((90000,-28000),(36000,-28000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10035" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10019" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10038">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((17500,-32500), (38000,-31500))</a:Rect>
+                <a:ListOfPoints>((36000,-32000),(18000,-32000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10037" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10010" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10007" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10040">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((-500,-36500), (20000,-35500))</a:Rect>
+                <a:ListOfPoints>((18000,-36000),(0,-36000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10039" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10007" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActorSequenceSymbol Ref="o10004" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+            </c:Symbols>
+          </o:SequenceDiagram>
+          <o:SequenceDiagram Id="o10041">
+            <a:ObjectID>A85AF97C-34C3-4924-AD2F-386EDAD5A93E</a:ObjectID>
+            <a:Name>02_formato inválido</a:Name>
+            <a:Code>02_formato_inválido_o10041</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\SQD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=No
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=No
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!""#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Object Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+ExtDpdShowStrn=Yes
+ExtendedDependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="Yes" Display="HorizontalRadios" &gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Location" Attribute="LocationOrName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Display Model Version=Yes
+InteractionSymbol.IconPicture=No
+InteractionSymbol.TextStyle=No
+InteractionSymbol_SymbolLayout=
+UMLObject.Stereotype=Yes
+UMLObject.HeaderAlwaysVisible=Yes
+UMLObject.IconPicture=No
+UMLObject.TextStyle=No
+UMLObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ActivationSymbol.IconPicture=No
+ActivationSymbol.TextStyle=No
+ActivationSymbol_SymbolLayout=
+Actor.Stereotype=Yes
+Actor.IconPicture=No
+Actor.TextStyle=No
+Actor_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+InteractionReference.IconPicture=No
+InteractionReference.TextStyle=No
+InteractionReference_SymbolLayout=
+InteractionFragment.IconPicture=No
+InteractionFragment.TextStyle=No
+InteractionFragment_SymbolLayout=
+Message.BeginTime=Yes
+Message.Stereotype=Yes
+Message.NameOrCode=No
+Message.NameOrOper=No
+Message.OperAndArgs=No
+Message.CondAndOper=No
+Message.CondOperAndSign=Yes
+Message.EndTime=Yes
+Message.ActivationAttachment=No
+Message_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF]  &lt;StandardAttribute Name="Begin Time" Attribute="BeginTime" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="NameOrCode" Prefix="" Suffix="" Caption="Name" Mandatory="No" /&gt;[CRLF]  &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="No" Display="VerticalRadios" &gt;[CRLF]   &lt;StandardAttribute Name="Operation name" Attribute="NameOrOper" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Operation name with signature" Attribute="OperAndArgs" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Sequence expression and operation name" Attribute="CondAndOper" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Sequence expression and operation name with signature" Attribute="CondOperAndSign" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF]  &lt;StandardAttribute Name="End Time" Attribute="EndTime" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+IRefShowStrn=Yes
+FragShowLife=Yes
+ShowIntrSym=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=-1
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SINT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=22000
+Height=28800
+Brush color=255 255 255
+Fill Color=No
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDOBJT]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0 0 0
+DISPNAMEFont=Arial,8,U
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ACTVSYM]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=900
+Height=2400
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\UCDACTR]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IREF]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=1031
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IFRG]
+KWRDFont=Arial,8,N
+KWRDFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=208 208 232
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDMSSG]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+            <a:PaperSize>(8268, 11693)</a:PaperSize>
+            <a:PageMargins>((315,354), (433,354))</a:PageMargins>
+            <a:PageOrientation>1</a:PageOrientation>
+            <a:PaperSource>261</a:PaperSource>
+            <a:Comment>Escenario: formato inválido. Las referencias CU son subinteracciones descritas en los otros modelos; los bucles muestran una iteración.</a:Comment>
+            <c:Symbols>
+              <o:InteractionSymbol Id="o10042">
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:Rect>((-11500,-31000), (101500,11000))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:BaseSymbol.Flags>4</a:BaseSymbol.Flags>
+                <a:LineColor>15257808</a:LineColor>
+                <a:FillColor>16777215</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>4</a:BrushStyle>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:SequenceDiagram Ref="o10041" />
+                </c:Object>
+              </o:InteractionSymbol>
+              <o:ActorSequenceSymbol Id="o10044">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-7000,4400), (7000,7600))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:LineWidth>1</a:LineWidth>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Actor Ref="o10043" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10045">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((-400,-28000), (400,4400))</a:Rect>
+                    <a:ListOfPoints>((0,4400),(0,-28000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:ActorSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10047">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,4400), (25000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10046" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10048">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((17600,-28000), (18400,4400))</a:Rect>
+                    <a:ListOfPoints>((18000,4400),(18000,-28000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10050">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((29000,4400), (43000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10049" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10051">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((35600,-28000), (36400,4400))</a:Rect>
+                    <a:ListOfPoints>((36000,4400),(36000,-28000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10053">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((47000,4400), (61000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10052" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10054">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((53600,-28000), (54400,4400))</a:Rect>
+                    <a:ListOfPoints>((54000,4400),(54000,-28000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10056">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((65000,4400), (79000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10055" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10057">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((71600,-28000), (72400,4400))</a:Rect>
+                    <a:ListOfPoints>((72000,4400),(72000,-28000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10059">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((83000,4400), (97000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10058" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10060">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((89600,-28000), (90400,4400))</a:Rect>
+                    <a:ListOfPoints>((90000,4400),(90000,-28000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:MessageSymbol Id="o10062">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((-500,-500), (20000,500))</a:Rect>
+                <a:ListOfPoints>((0,0),(18000,0))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10061" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActorSequenceSymbol Ref="o10044" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10047" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10064">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((17500,-4500), (38000,-3500))</a:Rect>
+                <a:ListOfPoints>((18000,-4000),(36000,-4000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10063" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10047" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10050" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10066">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-10200), (42500,-7500))</a:Rect>
+                <a:ListOfPoints>((36000,-8000),(42000,-8000),(42000,-9800),(36000,-9800))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10065" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10050" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10050" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10068">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((17500,-12500), (38000,-11500))</a:Rect>
+                <a:ListOfPoints>((36000,-12000),(18000,-12000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10067" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10050" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10047" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10070">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((-500,-16500), (20000,-15500))</a:Rect>
+                <a:ListOfPoints>((18000,-16000),(0,-16000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10069" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10047" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActorSequenceSymbol Ref="o10044" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+            </c:Symbols>
+          </o:SequenceDiagram>
+          <o:SequenceDiagram Id="o10071">
+            <a:ObjectID>B548C63C-00F6-453D-9207-7630246CC33B</a:ObjectID>
+            <a:Name>03_inexistente</a:Name>
+            <a:Code>03_inexistente_o10071</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\SQD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=No
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=No
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!""#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Object Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+ExtDpdShowStrn=Yes
+ExtendedDependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="Yes" Display="HorizontalRadios" &gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Location" Attribute="LocationOrName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Display Model Version=Yes
+InteractionSymbol.IconPicture=No
+InteractionSymbol.TextStyle=No
+InteractionSymbol_SymbolLayout=
+UMLObject.Stereotype=Yes
+UMLObject.HeaderAlwaysVisible=Yes
+UMLObject.IconPicture=No
+UMLObject.TextStyle=No
+UMLObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ActivationSymbol.IconPicture=No
+ActivationSymbol.TextStyle=No
+ActivationSymbol_SymbolLayout=
+Actor.Stereotype=Yes
+Actor.IconPicture=No
+Actor.TextStyle=No
+Actor_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+InteractionReference.IconPicture=No
+InteractionReference.TextStyle=No
+InteractionReference_SymbolLayout=
+InteractionFragment.IconPicture=No
+InteractionFragment.TextStyle=No
+InteractionFragment_SymbolLayout=
+Message.BeginTime=Yes
+Message.Stereotype=Yes
+Message.NameOrCode=No
+Message.NameOrOper=No
+Message.OperAndArgs=No
+Message.CondAndOper=No
+Message.CondOperAndSign=Yes
+Message.EndTime=Yes
+Message.ActivationAttachment=No
+Message_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF]  &lt;StandardAttribute Name="Begin Time" Attribute="BeginTime" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="NameOrCode" Prefix="" Suffix="" Caption="Name" Mandatory="No" /&gt;[CRLF]  &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="No" Display="VerticalRadios" &gt;[CRLF]   &lt;StandardAttribute Name="Operation name" Attribute="NameOrOper" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Operation name with signature" Attribute="OperAndArgs" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Sequence expression and operation name" Attribute="CondAndOper" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]   &lt;StandardAttribute Name="Sequence expression and operation name with signature" Attribute="CondOperAndSign" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF]  &lt;StandardAttribute Name="End Time" Attribute="EndTime" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+IRefShowStrn=Yes
+FragShowLife=Yes
+ShowIntrSym=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=-1
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SINT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=22000
+Height=28800
+Brush color=255 255 255
+Fill Color=No
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDOBJT]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0 0 0
+DISPNAMEFont=Arial,8,U
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ACTVSYM]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=900
+Height=2400
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\UCDACTR]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IREF]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=250 241 211
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=1031
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IFRG]
+KWRDFont=Arial,8,N
+KWRDFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=208 208 232
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDMSSG]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+            <a:PaperSize>(8268, 11693)</a:PaperSize>
+            <a:PageMargins>((315,354), (433,354))</a:PageMargins>
+            <a:PageOrientation>1</a:PageOrientation>
+            <a:PaperSource>261</a:PaperSource>
+            <a:Comment>Escenario: inexistente. Las referencias CU son subinteracciones descritas en los otros modelos; los bucles muestran una iteración.</a:Comment>
+            <c:Symbols>
+              <o:InteractionSymbol Id="o10072">
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:Rect>((-11500,-39000), (101500,11000))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:BaseSymbol.Flags>4</a:BaseSymbol.Flags>
+                <a:LineColor>15257808</a:LineColor>
+                <a:FillColor>16777215</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>4</a:BrushStyle>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:SequenceDiagram Ref="o10071" />
+                </c:Object>
+              </o:InteractionSymbol>
+              <o:ActorSequenceSymbol Id="o10074">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-7000,4400), (7000,7600))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:LineWidth>1</a:LineWidth>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Actor Ref="o10073" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10075">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((-400,-36000), (400,4400))</a:Rect>
+                    <a:ListOfPoints>((0,4400),(0,-36000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:ActorSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10077">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,4400), (25000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10076" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10078">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((17600,-36000), (18400,4400))</a:Rect>
+                    <a:ListOfPoints>((18000,4400),(18000,-36000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10080">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((29000,4400), (43000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10079" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10081">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((35600,-36000), (36400,4400))</a:Rect>
+                    <a:ListOfPoints>((36000,4400),(36000,-36000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10083">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((47000,4400), (61000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10082" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10084">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((53600,-36000), (54400,4400))</a:Rect>
+                    <a:ListOfPoints>((54000,4400),(54000,-36000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10086">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((65000,4400), (79000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10085" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10087">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((71600,-36000), (72400,4400))</a:Rect>
+                    <a:ListOfPoints>((72000,4400),(72000,-36000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:UMLObjectSequenceSymbol Id="o10089">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((83000,4400), (97000,7600))</a:Rect>
+                <a:AutoAdjustToText>0</a:AutoAdjustToText>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>12615935</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:ManuallyResized>1</a:ManuallyResized>
+                <c:Object>
+                  <o:UMLObject Ref="o10088" />
+                </c:Object>
+                <c:SlaveSubSymbols>
+                  <o:LifelineSymbol Id="o10090">
+                    <a:CreationDate>1776651939</a:CreationDate>
+                    <a:ModificationDate>1776651939</a:ModificationDate>
+                    <a:Rect>((89600,-36000), (90400,4400))</a:Rect>
+                    <a:ListOfPoints>((90000,4400),(90000,-36000))</a:ListOfPoints>
+                    <a:ArrowStyle>0</a:ArrowStyle>
+                    <a:LineColor>16744448</a:LineColor>
+                    <a:DashStyle>3</a:DashStyle>
+                    <a:ShadowColor>8421504</a:ShadowColor>
+                  </o:LifelineSymbol>
+                </c:SlaveSubSymbols>
+              </o:UMLObjectSequenceSymbol>
+              <o:MessageSymbol Id="o10092">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((-500,-500), (20000,500))</a:Rect>
+                <a:ListOfPoints>((0,0),(18000,0))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10091" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActorSequenceSymbol Ref="o10074" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10077" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10094">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((17500,-4500), (38000,-3500))</a:Rect>
+                <a:ListOfPoints>((18000,-4000),(36000,-4000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10093" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10077" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10080" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10096">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-10200), (42500,-7500))</a:Rect>
+                <a:ListOfPoints>((36000,-8000),(42000,-8000),(42000,-9800),(36000,-9800))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10095" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10080" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10080" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10098">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-12500), (56000,-11500))</a:Rect>
+                <a:ListOfPoints>((36000,-12000),(54000,-12000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10097" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10080" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10083" />
+                </c:DestinationSymbol>
+                <a:DashStyle>0</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10100">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((35500,-16500), (56000,-15500))</a:Rect>
+                <a:ListOfPoints>((54000,-16000),(36000,-16000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10099" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10083" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10080" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10102">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((17500,-20500), (38000,-19500))</a:Rect>
+                <a:ListOfPoints>((36000,-20000),(18000,-20000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10101" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10080" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10077" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+              <o:MessageSymbol Id="o10104">
+                <a:CreationDate>1776651939</a:CreationDate>
+                <a:ModificationDate>1776652293</a:ModificationDate>
+                <a:CenterTextOffset>(900, -242)</a:CenterTextOffset>
+                <a:CenterTextWidth>17000</a:CenterTextWidth>
+                <a:Rect>((-500,-24500), (20000,-23500))</a:Rect>
+                <a:ListOfPoints>((18000,-24000),(0,-24000))</a:ListOfPoints>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>12615808</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Message Ref="o10103" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:UMLObjectSequenceSymbol Ref="o10077" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActorSequenceSymbol Ref="o10074" />
+                </c:DestinationSymbol>
+                <a:DashStyle>3</a:DashStyle>
+              </o:MessageSymbol>
+            </c:Symbols>
+          </o:SequenceDiagram>
+        </c:SequenceDiagrams>
+        <c:DefaultDiagram>
+          <o:SequenceDiagram Ref="o10001" />
+        </c:DefaultDiagram>
+        <c:Actors>
+          <o:Actor Id="o10003">
+            <a:ObjectID>E827D57E-EB5E-4BA4-B813-F358FC63AFEE</a:ObjectID>
+            <a:Name>Comercializadora</a:Name>
+            <a:Code>Comercializadora_o10003</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Actor>
+          <o:Actor Id="o10043">
+            <a:ObjectID>809881BC-08B2-489F-BE7A-E4FC5B1BEA2C</a:ObjectID>
+            <a:Name>Comercializadora</a:Name>
+            <a:Code>Comercializadora_o10043</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Actor>
+          <o:Actor Id="o10073">
+            <a:ObjectID>B111EF9B-9B9F-4302-8C5B-7C9964F31BF0</a:ObjectID>
+            <a:Name>Comercializadora</a:Name>
+            <a:Code>Comercializadora_o10073</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Actor>
+        </c:Actors>
+        <c:Model.Objects>
+          <o:UMLObject Id="o10006">
+            <a:ObjectID>9BAA1B08-0BB2-42B9-97D9-7B0A09B8E12D</a:ObjectID>
+            <a:Name>CreditoControlador</a:Name>
+            <a:Code>CreditoControlador_o10006</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10009">
+            <a:ObjectID>8BB34BE6-B688-4A1C-A408-9CCFA99B7E3E</a:ObjectID>
+            <a:Name>ServicioCredito (Core)</a:Name>
+            <a:Code>ServicioCredito_Core_o10009</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10012">
+            <a:ObjectID>A2F9DEA7-5458-4BEC-8F2E-1968D2D223C9</a:ObjectID>
+            <a:Name>ClienteDAO</a:Name>
+            <a:Code>ClienteDAO_o10012</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10015">
+            <a:ObjectID>4B0B1EB3-0EEF-4B60-9B7A-B16D502785A0</a:ObjectID>
+            <a:Name>MovimientoDAO</a:Name>
+            <a:Code>MovimientoDAO_o10015</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10018">
+            <a:ObjectID>6E9884D6-4D50-4FDE-A4BB-419347AC001D</a:ObjectID>
+            <a:Name>CreditoDAO</a:Name>
+            <a:Code>CreditoDAO_o10018</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10046">
+            <a:ObjectID>9BDDF059-C5DC-4512-9BDD-CA0AC3AC85FE</a:ObjectID>
+            <a:Name>CreditoControlador</a:Name>
+            <a:Code>CreditoControlador_o10046</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10049">
+            <a:ObjectID>8863045F-B24B-4AA9-B5D5-831884223125</a:ObjectID>
+            <a:Name>ServicioCredito (Core)</a:Name>
+            <a:Code>ServicioCredito_Core_o10049</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10052">
+            <a:ObjectID>D17EE9F0-D0BB-4866-8CB6-CEFDF7C2AD51</a:ObjectID>
+            <a:Name>ClienteDAO</a:Name>
+            <a:Code>ClienteDAO_o10052</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10055">
+            <a:ObjectID>9017E240-D5DB-46BF-8B78-C6939F3E5B5E</a:ObjectID>
+            <a:Name>MovimientoDAO</a:Name>
+            <a:Code>MovimientoDAO_o10055</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10058">
+            <a:ObjectID>87735CA6-2103-48CF-BC06-23A039093469</a:ObjectID>
+            <a:Name>CreditoDAO</a:Name>
+            <a:Code>CreditoDAO_o10058</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10076">
+            <a:ObjectID>8E4A2630-5D0A-4F14-B195-3E748B2713E9</a:ObjectID>
+            <a:Name>CreditoControlador</a:Name>
+            <a:Code>CreditoControlador_o10076</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10079">
+            <a:ObjectID>6C0970DF-B997-4D95-BF27-8A87C350D278</a:ObjectID>
+            <a:Name>ServicioCredito (Core)</a:Name>
+            <a:Code>ServicioCredito_Core_o10079</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10082">
+            <a:ObjectID>6EEC8B8B-1F9D-42CB-9869-52AB99116E96</a:ObjectID>
+            <a:Name>ClienteDAO</a:Name>
+            <a:Code>ClienteDAO_o10082</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10085">
+            <a:ObjectID>782D4BB8-7874-45B6-9072-FBB391DAEBFB</a:ObjectID>
+            <a:Name>MovimientoDAO</a:Name>
+            <a:Code>MovimientoDAO_o10085</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+          <o:UMLObject Id="o10088">
+            <a:ObjectID>C7DBD0D5-26F5-4367-B304-67FB1ABECDF4</a:ObjectID>
+            <a:Name>CreditoDAO</a:Name>
+            <a:Code>CreditoDAO_o10088</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:UMLObject>
+        </c:Model.Objects>
+        <c:Messages>
+          <o:Message Id="o10021">
+            <a:ObjectID>E9E6A711-225D-457A-8C97-9D5174E344C6</a:ObjectID>
+            <a:Name>GET /api/creditos/cliente/{cedula}</a:Name>
+            <a:Code>GET_api_creditos_cliente_cedula_o10021</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>1</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10006" />
+            </c:Object1>
+            <c:Object2>
+              <o:Actor Ref="o10003" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10023">
+            <a:ObjectID>AAA5D9DB-D724-4883-A733-A51A3EB3F40B</a:ObjectID>
+            <a:Name>creditosCliente(cedula)</a:Name>
+            <a:Code>creditosCliente_cedula_o10023</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>2</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10009" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10006" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10025">
+            <a:ObjectID>6CB956EE-1EB0-47AE-AF51-583F52BD5CA8</a:ObjectID>
+            <a:Name>validar formato de cédula</a:Name>
+            <a:Code>validar_formato_de_cédula_o10025</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>3</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10009" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10009" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10027">
+            <a:ObjectID>9C6F8ADC-0FC7-44C9-83C6-6BFEB3639875</a:ObjectID>
+            <a:Name>seleccionarPorCedula(cedula)</a:Name>
+            <a:Code>seleccionarPorCedula_cedula_o10027</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>4</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10012" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10009" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10029">
+            <a:ObjectID>7AE8B556-BCED-40BC-85CA-ECE8040A45FD</a:ObjectID>
+            <a:Name>cliente o null</a:Name>
+            <a:Code>cliente_o_null_o10029</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>5</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10009" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10012" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10031">
+            <a:ObjectID>31706AEC-2C2F-4E46-9541-F2A7A9763255</a:ObjectID>
+            <a:Name>listarPorCedula(cedula)</a:Name>
+            <a:Code>listarPorCedula_cedula_o10031</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>6</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10018" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10009" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10033">
+            <a:ObjectID>62B52B8A-8236-47ED-9B46-3896E52FBA8E</a:ObjectID>
+            <a:Name>adjuntar amortización y totales</a:Name>
+            <a:Code>adjuntar_amortización_y_totales_o10033</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>7</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10018" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10018" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10035">
+            <a:ObjectID>966B8F7A-8CB5-4ECE-BFBF-E8D6D6BA9AAD</a:ObjectID>
+            <a:Name>List&lt;Credito&gt; (puede estar vacía)</a:Name>
+            <a:Code>List_Credito_puede_estar_vacía_o10035</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>8</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10009" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10018" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10037">
+            <a:ObjectID>10DF8325-2DC1-4C01-9532-470902A0A6FE</a:ObjectID>
+            <a:Name>lista</a:Name>
+            <a:Code>lista_o10037</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>9</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10006" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10009" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10039">
+            <a:ObjectID>B870BDF7-CC80-4E50-8CD9-0F1126F3D35C</a:ObjectID>
+            <a:Name>HTTP 200 + RespuestaApi</a:Name>
+            <a:Code>HTTP_200_RespuestaApi_o10039</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>10</a:SequenceNumber>
+            <c:Object1>
+              <o:Actor Ref="o10003" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10006" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10061">
+            <a:ObjectID>BD2C927D-23D0-4ECD-89BE-3D999FF750F9</a:ObjectID>
+            <a:Name>GET /api/creditos/cliente/{cedula}</a:Name>
+            <a:Code>GET_api_creditos_cliente_cedula_o10061</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>1</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10046" />
+            </c:Object1>
+            <c:Object2>
+              <o:Actor Ref="o10043" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10063">
+            <a:ObjectID>81D5DA41-7D71-40B5-959B-FECECC85A087</a:ObjectID>
+            <a:Name>creditosCliente(cedula)</a:Name>
+            <a:Code>creditosCliente_cedula_o10063</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>2</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10049" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10046" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10065">
+            <a:ObjectID>7C751C4C-9FC8-4356-95DE-D0839FA4DC0E</a:ObjectID>
+            <a:Name>validar formato de cédula</a:Name>
+            <a:Code>validar_formato_de_cédula_o10065</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>3</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10049" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10049" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10067">
+            <a:ObjectID>A7DB2641-2705-4D7D-BE14-38AFF709A81B</a:ObjectID>
+            <a:Name>ExcepcionNegocio(400)</a:Name>
+            <a:Code>ExcepcionNegocio_400_o10067</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>4</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10046" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10049" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10069">
+            <a:ObjectID>DCCB3958-FA97-4CA3-828A-2C8491C3B902</a:ObjectID>
+            <a:Name>HTTP 400</a:Name>
+            <a:Code>HTTP_400_o10069</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>5</a:SequenceNumber>
+            <c:Object1>
+              <o:Actor Ref="o10043" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10046" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10091">
+            <a:ObjectID>4553847A-7808-4238-A6E1-3FA00A1C819C</a:ObjectID>
+            <a:Name>GET /api/creditos/cliente/{cedula}</a:Name>
+            <a:Code>GET_api_creditos_cliente_cedula_o10091</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>1</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10076" />
+            </c:Object1>
+            <c:Object2>
+              <o:Actor Ref="o10073" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10093">
+            <a:ObjectID>846D5B0E-FFAC-4104-AE67-46AE7E0AD42E</a:ObjectID>
+            <a:Name>creditosCliente(cedula)</a:Name>
+            <a:Code>creditosCliente_cedula_o10093</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>2</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10079" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10076" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10095">
+            <a:ObjectID>F0657FA6-521C-409C-812A-92A9ED5E583E</a:ObjectID>
+            <a:Name>validar formato de cédula</a:Name>
+            <a:Code>validar_formato_de_cédula_o10095</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>3</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10079" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10079" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10097">
+            <a:ObjectID>06C7CC3F-FE58-4D3B-B845-F66B01C181BF</a:ObjectID>
+            <a:Name>seleccionarPorCedula(cedula)</a:Name>
+            <a:Code>seleccionarPorCedula_cedula_o10097</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>C</a:ControlFlow>
+            <a:SequenceNumber>4</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10082" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10079" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10099">
+            <a:ObjectID>23C88B1C-0096-480F-B987-7D7A5C947403</a:ObjectID>
+            <a:Name>cliente o null</a:Name>
+            <a:Code>cliente_o_null_o10099</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>5</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10079" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10082" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10101">
+            <a:ObjectID>B73F29FA-DB80-4A8B-99B4-E440B2D234DC</a:ObjectID>
+            <a:Name>ExcepcionNegocio(404)</a:Name>
+            <a:Code>ExcepcionNegocio_404_o10101</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>6</a:SequenceNumber>
+            <c:Object1>
+              <o:UMLObject Ref="o10076" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10079" />
+            </c:Object2>
+          </o:Message>
+          <o:Message Id="o10103">
+            <a:ObjectID>B8EF40F6-26CE-4DAF-9E5C-87C6F1524B45</a:ObjectID>
+            <a:Name>HTTP 404</a:Name>
+            <a:Code>HTTP_404_o10103</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ControlFlow>R</a:ControlFlow>
+            <a:SequenceNumber>7</a:SequenceNumber>
+            <c:Object1>
+              <o:Actor Ref="o10073" />
+            </c:Object1>
+            <c:Object2>
+              <o:UMLObject Ref="o10076" />
+            </c:Object2>
+          </o:Message>
+        </c:Messages>
+      </o:Model>
+    </c:Children>
+  </o:RootObject>
+</Model>

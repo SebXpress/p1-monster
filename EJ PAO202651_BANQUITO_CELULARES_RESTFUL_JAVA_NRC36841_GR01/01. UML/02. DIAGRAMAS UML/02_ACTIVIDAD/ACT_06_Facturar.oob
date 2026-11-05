@@ -1,0 +1,3698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{866178BD-3D45-421C-979F-5F09E5377787}" Label="" LastModificationDate="1778648448" Name="ACT_06_Facturar" Objects="145" Symbols="69" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.5.0.3982"?>
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+  <o:RootObject Id="o1">
+    <c:Children>
+      <o:Model Id="o2">
+        <a:ObjectID>866178BD-3D45-421C-979F-5F09E5377787</a:ObjectID>
+        <a:Name>ACT_06_Facturar</a:Name>
+        <a:Code>ACT_06_Facturar</a:Code>
+        <a:CreationDate>1778561275</a:CreationDate>
+        <a:Creator>joanc</a:Creator>
+        <a:ModificationDate>1778562518</a:ModificationDate>
+        <a:Modifier>joanc</a:Modifier>
+        <a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+        <a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=Yes
+UseTerm=No
+EnableRequirements=No
+EnableFullShortcut=Yes
+ShowClss=No
+DeftAttr=int
+DeftMthd=int
+DeftParm=int
+DeftCont=java.util.Collection
+DomnDttp=Yes
+DomnChck=No
+DomnRule=No
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=No
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=No
+DefaultChar=
+Script=
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No</a:ModelOptionsText>
+        <c:ObjectLanguage>
+          <o:Shortcut Id="o3">
+            <a:ObjectID>CCFED5D7-280A-4272-B3DA-C76EFF6F3382</a:ObjectID>
+            <a:Name>Java</a:Name>
+            <a:Code>Java</a:Code>
+            <a:CreationDate>1778561275</a:CreationDate>
+            <a:Creator>joanc</a:Creator>
+            <a:ModificationDate>1778561275</a:ModificationDate>
+            <a:Modifier>joanc</a:Modifier>
+            <a:TargetStereotype />
+            <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
+            <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+          </o:Shortcut>
+        </c:ObjectLanguage>
+        <c:ExtendedModelDefinitions>
+          <o:Shortcut Id="o4">
+            <a:ObjectID>204A2ADB-87DF-4C59-8CEF-C6A508E6F160</a:ObjectID>
+            <a:Name>WSDL for Java</a:Name>
+            <a:Code>WSDLJava</a:Code>
+            <a:CreationDate>1778561275</a:CreationDate>
+            <a:Creator>joanc</a:Creator>
+            <a:ModificationDate>1778561275</a:ModificationDate>
+            <a:Modifier>joanc</a:Modifier>
+            <a:TargetStereotype />
+            <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
+            <a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
+          </o:Shortcut>
+        </c:ExtendedModelDefinitions>
+        <c:TargetModels>
+          <o:TargetModel Id="o96">
+            <a:ObjectID>340571B2-07F9-4D5E-874E-5DD8C5DE2481</a:ObjectID>
+            <a:Name>Java</a:Name>
+            <a:Code>Java</a:Code>
+            <a:CreationDate>1778561275</a:CreationDate>
+            <a:Creator>joanc</a:Creator>
+            <a:ModificationDate>1778561275</a:ModificationDate>
+            <a:Modifier>joanc</a:Modifier>
+            <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
+            <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
+            <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+            <a:TargetModelLastModificationDate>1302065259</a:TargetModelLastModificationDate>
+            <c:SessionShortcuts>
+              <o:Shortcut Ref="o3" />
+            </c:SessionShortcuts>
+          </o:TargetModel>
+          <o:TargetModel Id="o97">
+            <a:ObjectID>3F76B6E9-24F1-4BBC-A316-500B8736E339</a:ObjectID>
+            <a:Name>WSDL for Java</a:Name>
+            <a:Code>WSDLJava</a:Code>
+            <a:CreationDate>1778561275</a:CreationDate>
+            <a:Creator>joanc</a:Creator>
+            <a:ModificationDate>1778561275</a:ModificationDate>
+            <a:Modifier>joanc</a:Modifier>
+            <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
+            <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
+            <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
+            <a:TargetModelLastModificationDate>1096028631</a:TargetModelLastModificationDate>
+            <c:SessionShortcuts>
+              <o:Shortcut Ref="o4" />
+            </c:SessionShortcuts>
+          </o:TargetModel>
+        </c:TargetModels>
+        <c:ActivityDiagrams>
+          <o:ActivityDiagram Id="o10001">
+            <a:ObjectID>E44851A5-4EB7-4206-AF84-1EFEA954D544</a:ObjectID>
+            <a:Name>ACT_06_Facturar</a:Name>
+            <a:Code>ACT_06_Facturar_o10001</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\ACD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=Yes
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!"#$%&amp;')*+,-./:;=&gt;?@\]^_`|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Object Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="Yes" Display="HorizontalRadios" &gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Location" Attribute="LocationOrName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Display Model Version=Yes
+Activity.Stereotype=Yes
+Activity.Comment=No
+Activity.ParametersDisplay=Yes
+Activity.IconPicture=No
+Activity.TextStyle=No
+Activity.SubSymbols=Yes
+Activity_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ObjectNode.Stereotype=Yes
+ObjectNode.Comment=No
+ObjectNode.IconPicture=No
+ObjectNode.TextStyle=No
+ObjectNode_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="Name" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="State" Attribute="States" Prefix="[" Suffix="]" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Variable.Stereotype=Yes
+Variable.Comment=No
+Variable.IconPicture=No
+Variable.TextStyle=No
+Variable_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ActivityParameter.DisplayName=Yes
+ActivityParameter.InstanceDisplay=No
+ActivityParameter.IconPicture=No
+ActivityParameter.TextStyle=No
+ActivityParameter_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Start.Stereotype=Yes
+Start.DisplayName=No
+Start.IconPicture=No
+Start.TextStyle=No
+Start_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+End.Stereotype=Yes
+End.DisplayName=No
+End.IconPicture=No
+End.TextStyle=No
+End_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Decision.Stereotype=Yes
+Decision.DisplayedExpression=No
+Decision.DisplayedExpressionOrName=Yes
+Decision.IconPicture=No
+Decision.TextStyle=No
+Decision_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="Yes" Display="HorizontalRadios" &gt;[CRLF]  &lt;StandardAttribute Name="Expression" Attribute="DisplayedExpression" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name if no condition" Attribute="DisplayedExpressionOrName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Synchronization.IconPicture=No
+Synchronization.TextStyle=No
+Synchronization_SymbolLayout=
+OrganizationUnit.Stereotype=Yes
+OrganizationUnit.IconPicture=No
+OrganizationUnit.TextStyle=No
+OrganizationUnit_SymbolLayout=
+ActivityFlow.Stereotype=Yes
+ActivityFlow_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF]  &lt;StandardAttribute Name="Condition" Attribute="DisplayedCondition" Prefix="[" Suffix="]" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Microsoft Sans Serif,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Microsoft Sans Serif,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Microsoft Sans Serif,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Microsoft Sans Serif,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Microsoft Sans Serif,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMACTV]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Microsoft Sans Serif,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=192 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ACDOBST]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+NAMEFont=Microsoft Sans Serif,8,N
+NAMEFont color=0, 0, 0
+STATFont=Microsoft Sans Serif,8,N
+STATFont color=0, 0, 0
+LABLFont=Microsoft Sans Serif,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4000
+Height=3000
+Brush color=224 224 224
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMVAR]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Microsoft Sans Serif,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4000
+Height=3000
+Brush color=224 224 224
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMATPM]
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=800
+Height=800
+Brush color=192 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMSTRT]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=Yes
+Width=1200
+Height=1200
+Brush color=0 128 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMEND]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=Yes
+Width=1500
+Height=1500
+Brush color=0 128 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMDCSN]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DEXPFont=Microsoft Sans Serif,8,N
+DEXPFont color=0, 0, 0
+DEXNFont=Microsoft Sans Serif,8,N
+DEXNFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=Yes
+Keep size=No
+Width=6600
+Height=4000
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=512
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMSYNC]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=2400
+Height=1500
+Brush color=0 128 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=512
+Brush gradient color=0 128 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMORGN]
+STRNFont=Microsoft Sans Serif,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Microsoft Sans Serif,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=3200
+Height=4800
+Brush color=242 242 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=512
+Brush gradient color=200 216 248
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMFLOW]
+SOURCEFont=Microsoft Sans Serif,8,N
+SOURCEFont color=0, 0, 0
+DESTINATIONFont=Microsoft Sans Serif,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Microsoft Sans Serif,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Microsoft Sans Serif,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+            <a:PaperSize>(8500, 11000)</a:PaperSize>
+            <a:PageMargins>((315,354), (433,354))</a:PageMargins>
+            <a:PageOrientation>1</a:PageOrientation>
+            <a:PaperSource>1</a:PaperSource>
+            <c:Symbols>
+              <o:StartSymbol Id="o10003">
+                <a:CreationDate>1778561337</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-600,-6600), (600,-5400))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>12615680</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>12632256</a:GradientEndColor>
+                <a:KeepAspect>1</a:KeepAspect>
+                <a:KeepCenter>1</a:KeepCenter>
+                <a:KeepSize>1</a:KeepSize>
+                <c:Object>
+                  <o:Start Ref="o10002" />
+                </c:Object>
+              </o:StartSymbol>
+              <o:ActivitySymbol Id="o10005">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-13400), (6500,-10600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10004" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10007">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-12500), (2000,-5500))</a:Rect>
+                <a:ListOfPoints>((0,-6000),(1600,-6000),(1600,-12000),(0,-12000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10006" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:StartSymbol Ref="o10003" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10005" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10009">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-19400), (6500,-16600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10008" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10011">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-18500), (2000,-11500))</a:Rect>
+                <a:ListOfPoints>((0,-12000),(1600,-12000),(1600,-18000),(0,-18000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10010" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10005" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10009" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10013">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-25400), (6500,-22600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10012" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10015">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-24500), (2000,-17500))</a:Rect>
+                <a:ListOfPoints>((0,-18000),(1600,-18000),(1600,-24000),(0,-24000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10014" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10009" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10013" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10017">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-31400), (6500,-28600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10016" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10019">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-30500), (2000,-23500))</a:Rect>
+                <a:ListOfPoints>((0,-24000),(1600,-24000),(1600,-30000),(0,-30000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10018" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10013" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10017" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10021">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6000,-37750), (6000,-34250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10020" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10023">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-36500), (2000,-29500))</a:Rect>
+                <a:ListOfPoints>((0,-30000),(1600,-30000),(1600,-36000),(0,-36000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10022" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10017" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10021" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10025">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-23500,-43400), (-10500,-40600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10024" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10027">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-42500), (2000,-35500))</a:Rect>
+                <a:ListOfPoints>((0,-36000),(-17000,-42000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10026" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10021" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10025" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:EndSymbol Id="o10029">
+                <a:CreationDate>1778562495</a:CreationDate>
+                <a:ModificationDate>1778562495</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-17600,-48600), (-16400,-47400))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>12615680</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>12632256</a:GradientEndColor>
+                <a:KeepAspect>1</a:KeepAspect>
+                <a:KeepCenter>1</a:KeepCenter>
+                <a:KeepSize>1</a:KeepSize>
+                <c:Object>
+                  <o:End Ref="o10028" />
+                </c:Object>
+              </o:EndSymbol>
+              <o:FlowSymbol Id="o10031">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-48500), (-15000,-41500))</a:Rect>
+                <a:ListOfPoints>((-17000,-42000),(-15400,-42000),(-15400,-48000),(-17000,-48000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10030" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10025" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:EndSymbol Ref="o10029" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10033">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6000,-55750), (6000,-52250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10032" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10035">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-54500), (2000,-35500))</a:Rect>
+                <a:ListOfPoints>((0,-36000),(1600,-36000),(1600,-54000),(0,-54000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10034" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10021" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10033" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10037">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6000,-61750), (6000,-58250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10036" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10039">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-60500), (2000,-53500))</a:Rect>
+                <a:ListOfPoints>((0,-54000),(1600,-54000),(1600,-60000),(0,-60000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10038" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10033" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10037" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10041">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-23500,-67400), (-10500,-64600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10040" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10043">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-66500), (2000,-59500))</a:Rect>
+                <a:ListOfPoints>((0,-60000),(-17000,-66000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10042" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10037" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10041" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10045">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-23500,-73400), (-10500,-70600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10044" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10047">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-72500), (-15000,-65500))</a:Rect>
+                <a:ListOfPoints>((-17000,-66000),(-15400,-66000),(-15400,-72000),(-17000,-72000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10046" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10041" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10045" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10049">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((10500,-79400), (23500,-76600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10048" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10051">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-78500), (19000,-59500))</a:Rect>
+                <a:ListOfPoints>((0,-60000),(17000,-78000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10050" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10037" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10049" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10053">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((10500,-85400), (23500,-82600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10052" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10055">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-84500), (19000,-77500))</a:Rect>
+                <a:ListOfPoints>((17000,-78000),(18600,-78000),(18600,-84000),(17000,-84000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10054" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10049" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10053" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10057">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,-91750), (23000,-88250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10056" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10059">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-90500), (19000,-83500))</a:Rect>
+                <a:ListOfPoints>((17000,-84000),(18600,-84000),(18600,-90000),(17000,-90000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10058" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10053" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10057" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10061">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-97400), (6500,-94600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10060" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10063">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-96500), (19000,-89500))</a:Rect>
+                <a:ListOfPoints>((17000,-90000),(0,-96000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10062" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10057" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10061" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:EndSymbol Id="o10065">
+                <a:CreationDate>1778562495</a:CreationDate>
+                <a:ModificationDate>1778562495</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-600,-102600), (600,-101400))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>12615680</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>12632256</a:GradientEndColor>
+                <a:KeepAspect>1</a:KeepAspect>
+                <a:KeepCenter>1</a:KeepCenter>
+                <a:KeepSize>1</a:KeepSize>
+                <c:Object>
+                  <o:End Ref="o10064" />
+                </c:Object>
+              </o:EndSymbol>
+              <o:FlowSymbol Id="o10067">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-102500), (2000,-95500))</a:Rect>
+                <a:ListOfPoints>((0,-96000),(1600,-96000),(1600,-102000),(0,-102000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10066" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10061" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:EndSymbol Ref="o10065" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10069">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,-109750), (23000,-106250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10068" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10071">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-108500), (19000,-89500))</a:Rect>
+                <a:ListOfPoints>((17000,-90000),(18600,-90000),(18600,-108000),(17000,-108000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10070" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10057" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10069" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10073">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((10500,-115400), (23500,-112600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10072" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10075">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-114500), (19000,-107500))</a:Rect>
+                <a:ListOfPoints>((17000,-108000),(18600,-108000),(18600,-114000),(17000,-114000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10074" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10069" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10073" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10077">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,-121750), (23000,-118250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10076" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10079">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-120500), (19000,-113500))</a:Rect>
+                <a:ListOfPoints>((17000,-114000),(18600,-114000),(18600,-120000),(17000,-120000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10078" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10073" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10077" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10081">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-127400), (6500,-124600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10080" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10083">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-126500), (19000,-119500))</a:Rect>
+                <a:ListOfPoints>((17000,-120000),(0,-126000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10082" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10077" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10081" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:EndSymbol Id="o10085">
+                <a:CreationDate>1778562495</a:CreationDate>
+                <a:ModificationDate>1778562495</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-600,-132600), (600,-131400))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>12615680</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>12632256</a:GradientEndColor>
+                <a:KeepAspect>1</a:KeepAspect>
+                <a:KeepCenter>1</a:KeepCenter>
+                <a:KeepSize>1</a:KeepSize>
+                <c:Object>
+                  <o:End Ref="o10084" />
+                </c:Object>
+              </o:EndSymbol>
+              <o:FlowSymbol Id="o10087">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-132500), (2000,-125500))</a:Rect>
+                <a:ListOfPoints>((0,-126000),(1600,-126000),(1600,-132000),(0,-132000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10086" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10081" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:EndSymbol Ref="o10085" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10089">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((11000,-139750), (23000,-136250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10088" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10091">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-138500), (19000,-119500))</a:Rect>
+                <a:ListOfPoints>((17000,-120000),(18600,-120000),(18600,-138000),(17000,-138000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10090" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10077" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10089" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10093">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((10500,-145400), (23500,-142600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10092" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10095">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-144500), (19000,-137500))</a:Rect>
+                <a:ListOfPoints>((17000,-138000),(18600,-138000),(18600,-144000),(17000,-144000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10094" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10089" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10093" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10097">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((10500,-151400), (23500,-148600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10096" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10099">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((16500,-150500), (19000,-143500))</a:Rect>
+                <a:ListOfPoints>((17000,-144000),(18600,-144000),(18600,-150000),(17000,-150000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10098" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10093" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10097" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10101">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6000,-157750), (6000,-154250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10100" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10103">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-156500), (2000,-71500))</a:Rect>
+                <a:ListOfPoints>((-17000,-72000),(0,-156000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10102" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10045" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10101" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:FlowSymbol Id="o10105">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-156500), (19000,-149500))</a:Rect>
+                <a:ListOfPoints>((17000,-150000),(0,-156000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10104" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10097" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10101" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10107">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-163400), (6500,-160600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10106" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10109">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-162500), (2000,-155500))</a:Rect>
+                <a:ListOfPoints>((0,-156000),(1600,-156000),(1600,-162000),(0,-162000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10108" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10101" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10107" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10111">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6500,-169400), (6500,-166600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10110" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10113">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-168500), (2000,-161500))</a:Rect>
+                <a:ListOfPoints>((0,-162000),(1600,-162000),(1600,-168000),(0,-168000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10112" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10107" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10111" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10115">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6000,-175750), (6000,-172250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10114" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10117">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-174500), (2000,-167500))</a:Rect>
+                <a:ListOfPoints>((0,-168000),(1600,-168000),(1600,-174000),(0,-174000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10116" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10111" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10115" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10119">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-23500,-181400), (-10500,-178600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10118" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10121">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-180500), (2000,-173500))</a:Rect>
+                <a:ListOfPoints>((0,-174000),(-17000,-180000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10120" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10115" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10119" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10123">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-23500,-187400), (-10500,-184600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10122" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10125">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-186500), (-15000,-179500))</a:Rect>
+                <a:ListOfPoints>((-17000,-180000),(-15400,-180000),(-15400,-186000),(-17000,-186000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10124" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10119" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10123" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:ActivitySymbol Id="o10127">
+                <a:CreationDate>1778561300</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((10500,-193400), (23500,-190600))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>16777152</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Activity Ref="o10126" />
+                </c:Object>
+              </o:ActivitySymbol>
+              <o:FlowSymbol Id="o10129">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-192500), (19000,-173500))</a:Rect>
+                <a:ListOfPoints>((0,-174000),(17000,-192000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10128" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10115" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ActivitySymbol Ref="o10127" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:BaseDecisionSymbol Id="o10131">
+                <a:CreationDate>1778561782</a:CreationDate>
+                <a:ModificationDate>1778562329</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-6000,-199750), (6000,-196250))</a:Rect>
+                <a:LineColor>32896</a:LineColor>
+                <a:FillColor>12648447</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DEXP 0 Microsoft Sans Serif,8,N
+DEXN 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>512</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <a:KeepCenter>1</a:KeepCenter>
+                <c:Object>
+                  <o:Decision Ref="o10130" />
+                </c:Object>
+              </o:BaseDecisionSymbol>
+              <o:FlowSymbol Id="o10133">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-17500,-198500), (2000,-185500))</a:Rect>
+                <a:ListOfPoints>((-17000,-186000),(0,-198000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10132" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10123" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10131" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:FlowSymbol Id="o10135">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-198500), (19000,-191500))</a:Rect>
+                <a:ListOfPoints>((17000,-192000),(0,-198000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10134" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ActivitySymbol Ref="o10127" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:BaseDecisionSymbol Ref="o10131" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+              <o:EndSymbol Id="o10137">
+                <a:CreationDate>1778562495</a:CreationDate>
+                <a:ModificationDate>1778562495</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-600,-204600), (600,-203400))</a:Rect>
+                <a:LineColor>12615680</a:LineColor>
+                <a:FillColor>12615680</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>12632256</a:GradientEndColor>
+                <a:KeepAspect>1</a:KeepAspect>
+                <a:KeepCenter>1</a:KeepCenter>
+                <a:KeepSize>1</a:KeepSize>
+                <c:Object>
+                  <o:End Ref="o10136" />
+                </c:Object>
+              </o:EndSymbol>
+              <o:FlowSymbol Id="o10139">
+                <a:CreationDate>1778561551</a:CreationDate>
+                <a:ModificationDate>1778562167</a:ModificationDate>
+                <a:Rect>((-500,-204500), (2000,-197500))</a:Rect>
+                <a:ListOfPoints>((0,-198000),(1600,-198000),(1600,-204000),(0,-204000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>1</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>SOURCE 0 Microsoft Sans Serif,8,N
+DESTINATION 0 Microsoft Sans Serif,8,N</a:FontList>
+                <c:Object>
+                  <o:ActivityFlow Ref="o10138" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:BaseDecisionSymbol Ref="o10131" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:EndSymbol Ref="o10137" />
+                </c:DestinationSymbol>
+              </o:FlowSymbol>
+            </c:Symbols>
+          </o:ActivityDiagram>
+        </c:ActivityDiagrams>
+        <c:DefaultDiagram>
+          <o:ActivityDiagram Ref="o10001" />
+        </c:DefaultDiagram>
+        <c:Starts>
+          <o:Start Id="o10002">
+            <a:ObjectID>9F53872F-8282-4FDE-8780-300EAEAD16DC</a:ObjectID>
+            <a:Name>Inicio</a:Name>
+            <a:Code>Inicio_o10002</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Start>
+        </c:Starts>
+        <c:Activities>
+          <o:Activity Id="o10004">
+            <a:ObjectID>E15C89DF-761C-4A12-A940-FC1CDC5FB971</a:ObjectID>
+            <a:Name>Validar cédula ecuatoriana y nombre</a:Name>
+            <a:Code>Validar_cédula_ecuatoriana_y_nombre_o10004</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10008">
+            <a:ObjectID>7D42C59B-1645-49B4-8835-998CC13201E4</a:ObjectID>
+            <a:Name>Validar forma de pago e ítems</a:Name>
+            <a:Code>Validar_forma_de_pago_e_ítems_o10008</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10012">
+            <a:ObjectID>76781ED2-27B0-4468-928F-571CA03D6271</a:ObjectID>
+            <a:Name>Consultar celulares activos y cantidades 1 a 100</a:Name>
+            <a:Code>Consultar_celulares_activos_y_cantidades_1_a_100_o10012</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10016">
+            <a:ObjectID>D600B920-FDF5-4513-8E07-D90961745F2D</a:ObjectID>
+            <a:Name>Calcular subtotal con precios de la BD</a:Name>
+            <a:Code>Calcular_subtotal_con_precios_de_la_BD_o10016</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10024">
+            <a:ObjectID>C2883EED-F4AD-46DD-90A8-C69C14C08FBC</a:ObjectID>
+            <a:Name>Responder HTTP 400</a:Name>
+            <a:Code>Responder_HTTP_400_o10024</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10040">
+            <a:ObjectID>83B437DF-CE83-4614-B3ED-0DAD4129FA2D</a:ObjectID>
+            <a:Name>Descuento = subtotal * 0,42</a:Name>
+            <a:Code>Descuento_subtotal_0_42_o10040</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10044">
+            <a:ObjectID>29DD4ABF-60FC-4226-AFBC-6446CD280541</a:ObjectID>
+            <a:Name>Total = subtotal - descuento</a:Name>
+            <a:Code>Total_subtotal_descuento_o10044</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10048">
+            <a:ObjectID>1A2ADCDC-16D9-401E-9200-EEDCA49C5686</a:ObjectID>
+            <a:Name>Validar plazo de 3 a 18 meses</a:Name>
+            <a:Code>Validar_plazo_de_3_a_18_meses_o10048</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10052">
+            <a:ObjectID>BAD4317E-FB46-4C80-96F0-578959FEB819</a:ObjectID>
+            <a:Name>Consultar sujeto y, si procede, monto máximo al Core</a:Name>
+            <a:Code>Consultar_sujeto_y_si_procede_monto_máximo_al_Core_o10052</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10060">
+            <a:ObjectID>81E11D25-A630-44D2-A235-48FD0B44A0EE</a:ObjectID>
+            <a:Name>Responder HTTP 409 sin emitir factura</a:Name>
+            <a:Code>Responder_HTTP_409_sin_emitir_factura_o10060</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10072">
+            <a:ObjectID>1E6E5587-5C69-48DC-BF03-A96869877C42</a:ObjectID>
+            <a:Name>Solicitar crédito al Core</a:Name>
+            <a:Code>Solicitar_crédito_al_Core_o10072</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10080">
+            <a:ObjectID>B34D4E19-858C-41AB-A4FB-E6EE84E91929</a:ObjectID>
+            <a:Name>Responder error sin emitir factura</a:Name>
+            <a:Code>Responder_error_sin_emitir_factura_o10080</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10092">
+            <a:ObjectID>F9FC4F95-3BB6-4540-B4B9-EC3F8550D74B</a:ObjectID>
+            <a:Name>Conservar código y cuota del crédito</a:Name>
+            <a:Code>Conservar_código_y_cuota_del_crédito_o10092</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10096">
+            <a:ObjectID>F7283676-FAE9-4830-AF98-0CA969C513C1</a:ObjectID>
+            <a:Name>Total = subtotal; descuento = 0</a:Name>
+            <a:Code>Total_subtotal_descuento_0_o10096</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10106">
+            <a:ObjectID>5787BAC2-52EA-4369-8054-354CAE048735</a:ObjectID>
+            <a:Name>Iniciar transacción local Comercializadora</a:Name>
+            <a:Code>Iniciar_transacción_local_Comercializadora_o10106</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10110">
+            <a:ObjectID>2AB370F2-49F8-4969-BEBD-0618A4B3CE1B</a:ObjectID>
+            <a:Name>Guardar comprador, factura y detalles</a:Name>
+            <a:Code>Guardar_comprador_factura_y_detalles_o10110</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10118">
+            <a:ObjectID>689B1C98-FF9E-448C-AA53-5DD9FDB2842B</a:ObjectID>
+            <a:Name>COMMIT</a:Name>
+            <a:Code>COMMIT_o10118</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10122">
+            <a:ObjectID>FE7ACC5D-995F-447C-9C19-879D33F1AD9F</a:ObjectID>
+            <a:Name>Responder HTTP 201 con factura</a:Name>
+            <a:Code>Responder_HTTP_201_con_factura_o10122</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+          <o:Activity Id="o10126">
+            <a:ObjectID>B596CC4B-EA93-4156-8D5F-1455BD3269C9</a:ObjectID>
+            <a:Name>ROLLBACK local y responder error</a:Name>
+            <a:Code>ROLLBACK_local_y_responder_error_o10126</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:ActionType>UML_ACTV</a:ActionType>
+          </o:Activity>
+        </c:Activities>
+        <c:Flows>
+          <o:ActivityFlow Id="o10006">
+            <a:ObjectID>D9EF8046-F576-4708-905B-C6655A373820</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10004" />
+            </c:Object1>
+            <c:Object2>
+              <o:Start Ref="o10002" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10010">
+            <a:ObjectID>310BEF99-6293-4F0D-BC74-2BB8C433F15F</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10008" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10004" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10014">
+            <a:ObjectID>234262CB-F68E-4057-A1FD-31E77B835AFB</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10012" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10008" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10018">
+            <a:ObjectID>2C7C726E-BFF7-4CEA-AADA-10070C1ABF81</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10016" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10012" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10022">
+            <a:ObjectID>AD625875-DF92-48F7-98F1-71D7B31E6449</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10020" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10016" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10026">
+            <a:ObjectID>E1AE42C6-E30A-4652-A7EB-23D8CDE52C64</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10024" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10020" />
+            </c:Object2>
+            <a:ConditionAlias>no</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10030">
+            <a:ObjectID>86ADD8FC-44CC-4F72-B0AC-A1BE59CB1D16</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:End Ref="o10028" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10024" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10034">
+            <a:ObjectID>3C829A15-AC91-41AA-B8D3-9C3CC135B873</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10032" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10020" />
+            </c:Object2>
+            <a:ConditionAlias>sí</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10038">
+            <a:ObjectID>2E79E940-AFAB-4C84-ACF3-157137CFE500</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10036" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10032" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10042">
+            <a:ObjectID>61CBA290-D870-4AC5-B142-5E565CF2E9A6</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10040" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10036" />
+            </c:Object2>
+            <a:ConditionAlias>sí</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10046">
+            <a:ObjectID>C2422EFD-F264-4BA2-827D-7B8ED74875AE</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10044" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10040" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10050">
+            <a:ObjectID>D67C2B0C-5749-40A8-8416-08AFFA5F241C</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10048" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10036" />
+            </c:Object2>
+            <a:ConditionAlias>CREDITO</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10054">
+            <a:ObjectID>C3BF0DB4-4A0A-4710-8A7E-0F78D0572E01</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10052" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10048" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10058">
+            <a:ObjectID>102D0413-C865-4DFB-A208-9A20AAF21A63</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10056" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10052" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10062">
+            <a:ObjectID>C414231F-389B-469A-860B-6803D6C60871</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10060" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10056" />
+            </c:Object2>
+            <a:ConditionAlias>no</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10066">
+            <a:ObjectID>5CFE365A-DD66-441C-80A3-15AFF29041B9</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:End Ref="o10064" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10060" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10070">
+            <a:ObjectID>1D32FC9D-AE48-4AA5-8668-BB482307D786</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10068" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10056" />
+            </c:Object2>
+            <a:ConditionAlias>sí</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10074">
+            <a:ObjectID>3981D2C3-4E0D-4F18-BFA6-5CE1B2CF9822</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10072" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10068" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10078">
+            <a:ObjectID>E854CCC6-F8A7-45D1-98C6-24E45539D49F</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10076" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10072" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10082">
+            <a:ObjectID>702A7419-5190-4B2D-B5C7-19BAAD26FAD9</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10080" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10076" />
+            </c:Object2>
+            <a:ConditionAlias>no</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10086">
+            <a:ObjectID>F73FD999-EB5C-4414-8464-7D943F456829</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:End Ref="o10084" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10080" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10090">
+            <a:ObjectID>52CAF626-6F3D-4158-9B17-296F404E60C9</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10088" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10076" />
+            </c:Object2>
+            <a:ConditionAlias>sí</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10094">
+            <a:ObjectID>39653906-3596-4D5B-951B-BE7BE77E1007</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10092" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10088" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10098">
+            <a:ObjectID>898FE7EB-4106-4497-94D7-DF0142FC3C43</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10096" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10092" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10102">
+            <a:ObjectID>94832C31-4CD3-415F-8F22-C345263805F2</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10100" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10044" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10104">
+            <a:ObjectID>A8F1BFA3-9E26-481C-812C-EB2451286FE6</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10100" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10096" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10108">
+            <a:ObjectID>229486BB-D4AE-43C5-9B51-9EA3FC3585E4</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10106" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10100" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10112">
+            <a:ObjectID>72FFDDD9-BCB6-42FF-8D70-EB751ED1FB4B</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10110" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10106" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10116">
+            <a:ObjectID>459CEDC9-0BA9-4277-8A55-61AEF5A18AA9</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10114" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10110" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10120">
+            <a:ObjectID>629CB3F1-64C7-42EB-ABE3-F40BB5C14B28</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10118" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10114" />
+            </c:Object2>
+            <a:ConditionAlias>sí</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10124">
+            <a:ObjectID>F2F3FD69-8024-490E-97B7-E9EB191E7166</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10122" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10118" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10128">
+            <a:ObjectID>363FC0DD-548B-4DFC-B623-1089632A0A77</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Activity Ref="o10126" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10114" />
+            </c:Object2>
+            <a:ConditionAlias>no</a:ConditionAlias>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10132">
+            <a:ObjectID>AE9960CB-F7C4-4AC0-A692-878626CA01E7</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10130" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10122" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10134">
+            <a:ObjectID>4A864C8E-4185-48B6-BAB3-EE7ED8DDB991</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Decision Ref="o10130" />
+            </c:Object1>
+            <c:Object2>
+              <o:Activity Ref="o10126" />
+            </c:Object2>
+          </o:ActivityFlow>
+          <o:ActivityFlow Id="o10138">
+            <a:ObjectID>D8EB5565-5EC1-48AC-A9CA-0C4029BF822D</a:ObjectID>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:End Ref="o10136" />
+            </c:Object1>
+            <c:Object2>
+              <o:Decision Ref="o10130" />
+            </c:Object2>
+          </o:ActivityFlow>
+        </c:Flows>
+        <c:Decisions>
+          <o:Decision Id="o10020">
+            <a:ObjectID>9DA3C887-D5F0-45D0-AB43-90AD31E6E06A</a:ObjectID>
+            <a:Name>¿Datos válidos?</a:Name>
+            <a:Code>Datos_válidos_o10020</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10032">
+            <a:ObjectID>122CBFC1-0A4E-4DD6-BE46-C80359A4E31C</a:ObjectID>
+            <a:Name>Unir flujo</a:Name>
+            <a:Code>Unir_flujo_o10032</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10036">
+            <a:ObjectID>5E3F5036-BB0A-402A-842B-C7EE313B483E</a:ObjectID>
+            <a:Name>¿Pago EFECTIVO?</a:Name>
+            <a:Code>Pago_EFECTIVO_o10036</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10056">
+            <a:ObjectID>4364C0C1-0A28-401A-A8EB-5F9489AFA45E</a:ObjectID>
+            <a:Name>¿Es sujeto y monto suficiente?</a:Name>
+            <a:Code>Es_sujeto_y_monto_suficiente_o10056</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10068">
+            <a:ObjectID>ADBB22C4-8B3F-4622-A3B2-A22B3D6DB288</a:ObjectID>
+            <a:Name>Unir flujo</a:Name>
+            <a:Code>Unir_flujo_o10068</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10076">
+            <a:ObjectID>B740ECA8-F2C4-4D9E-A61C-3B2CDFF1936C</a:ObjectID>
+            <a:Name>¿Core otorga crédito?</a:Name>
+            <a:Code>Core_otorga_crédito_o10076</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10088">
+            <a:ObjectID>EA391CE5-4298-42BD-94C8-DAFAB1CBB6DB</a:ObjectID>
+            <a:Name>Unir flujo</a:Name>
+            <a:Code>Unir_flujo_o10088</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10100">
+            <a:ObjectID>6386A045-495B-43A1-8C9C-3C3173266E66</a:ObjectID>
+            <a:Name>Unir flujo</a:Name>
+            <a:Code>Unir_flujo_o10100</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10114">
+            <a:ObjectID>CDD24270-CEAC-46E9-BF01-9AED01375B44</a:ObjectID>
+            <a:Name>¿Escrituras correctas?</a:Name>
+            <a:Code>Escrituras_correctas_o10114</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+          <o:Decision Id="o10130">
+            <a:ObjectID>FF89C854-5D81-48D8-9433-BE5BA20B72AC</a:ObjectID>
+            <a:Name>Unir flujo</a:Name>
+            <a:Code>Unir_flujo_o10130</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:Decision>
+        </c:Decisions>
+        <c:Ends>
+          <o:End Id="o10028">
+            <a:ObjectID>9A0D528F-93F3-4B0B-B01F-AC968C690766</a:ObjectID>
+            <a:Name>Fin</a:Name>
+            <a:Code>Fin_o10028</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:End>
+          <o:End Id="o10064">
+            <a:ObjectID>3C28AA66-52F2-4062-8782-0FCF60D97565</a:ObjectID>
+            <a:Name>Fin</a:Name>
+            <a:Code>Fin_o10064</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:End>
+          <o:End Id="o10084">
+            <a:ObjectID>7695CA6C-D45B-40FA-A4C7-B7208E3E0706</a:ObjectID>
+            <a:Name>Fin</a:Name>
+            <a:Code>Fin_o10084</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:End>
+          <o:End Id="o10136">
+            <a:ObjectID>10782E04-E17D-412F-9110-B0019B103590</a:ObjectID>
+            <a:Name>Fin</a:Name>
+            <a:Code>Fin_o10136</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+          </o:End>
+        </c:Ends>
+      </o:Model>
+    </c:Children>
+  </o:RootObject>
+</Model>

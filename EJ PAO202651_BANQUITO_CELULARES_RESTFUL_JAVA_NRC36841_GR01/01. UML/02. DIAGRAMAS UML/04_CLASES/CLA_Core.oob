@@ -1,0 +1,3525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{A20C0428-2600-454A-A247-BE9E8074CC69}" Label="" LastModificationDate="1793058273" Name="CLA_Core" Objects="148" Symbols="23" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.5.0.3982"?>
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+  <o:RootObject Id="o1">
+    <c:Children>
+      <o:Model Id="o2">
+        <a:ObjectID>A20C0428-2600-454A-A247-BE9E8074CC69</a:ObjectID>
+        <a:Name>CLA_Core</a:Name>
+        <a:Code>CLA_Core</a:Code>
+        <a:CreationDate>1793056277</a:CreationDate>
+        <a:Creator>sebas</a:Creator>
+        <a:ModificationDate>1793058133</a:ModificationDate>
+        <a:Modifier>sebas</a:Modifier>
+        <a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+        <a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=Yes
+UseTerm=No
+EnableRequirements=No
+EnableFullShortcut=Yes
+ShowClss=No
+DeftAttr=int
+DeftMthd=int
+DeftParm=int
+DeftCont=java.util.Collection
+DomnDttp=Yes
+DomnChck=No
+DomnRule=No
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=No
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar="\/:*?&lt;&gt;|"
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_. "
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" '(.)+=*/"
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No</a:ModelOptionsText>
+        <c:ObjectLanguage>
+          <o:Shortcut Id="o3">
+            <a:ObjectID>7C4DB43F-40A4-420E-8C07-07B2F0F2D5B0</a:ObjectID>
+            <a:Name>Java</a:Name>
+            <a:Code>Java</a:Code>
+            <a:CreationDate>1793056277</a:CreationDate>
+            <a:Creator>sebas</a:Creator>
+            <a:ModificationDate>1793056277</a:ModificationDate>
+            <a:Modifier>sebas</a:Modifier>
+            <a:TargetStereotype />
+            <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
+            <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+          </o:Shortcut>
+        </c:ObjectLanguage>
+        <c:ExtendedModelDefinitions>
+          <o:Shortcut Id="o4">
+            <a:ObjectID>70AE681C-841F-4364-8B99-E94A8192AD65</a:ObjectID>
+            <a:Name>WSDL for Java</a:Name>
+            <a:Code>WSDLJava</a:Code>
+            <a:CreationDate>1793056277</a:CreationDate>
+            <a:Creator>sebas</a:Creator>
+            <a:ModificationDate>1793056277</a:ModificationDate>
+            <a:Modifier>sebas</a:Modifier>
+            <a:TargetStereotype />
+            <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
+            <a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
+          </o:Shortcut>
+        </c:ExtendedModelDefinitions>
+        <c:TargetModels>
+          <o:TargetModel Id="o69">
+            <a:ObjectID>9CD5F9A4-7757-481C-8D15-0E3E5F246A90</a:ObjectID>
+            <a:Name>Java</a:Name>
+            <a:Code>Java</a:Code>
+            <a:CreationDate>1793056277</a:CreationDate>
+            <a:Creator>sebas</a:Creator>
+            <a:ModificationDate>1793056277</a:ModificationDate>
+            <a:Modifier>sebas</a:Modifier>
+            <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
+            <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
+            <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+            <a:TargetModelLastModificationDate>1302065259</a:TargetModelLastModificationDate>
+            <c:SessionShortcuts>
+              <o:Shortcut Ref="o3" />
+            </c:SessionShortcuts>
+          </o:TargetModel>
+          <o:TargetModel Id="o70">
+            <a:ObjectID>5639CF7C-1449-4396-A126-0AA24D1323DF</a:ObjectID>
+            <a:Name>WSDL for Java</a:Name>
+            <a:Code>WSDLJava</a:Code>
+            <a:CreationDate>1793056277</a:CreationDate>
+            <a:Creator>sebas</a:Creator>
+            <a:ModificationDate>1793056277</a:ModificationDate>
+            <a:Modifier>sebas</a:Modifier>
+            <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
+            <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
+            <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
+            <a:TargetModelLastModificationDate>1096028631</a:TargetModelLastModificationDate>
+            <c:SessionShortcuts>
+              <o:Shortcut Ref="o4" />
+            </c:SessionShortcuts>
+          </o:TargetModel>
+        </c:TargetModels>
+        <c:ClassDiagrams>
+          <o:ClassDiagram Id="o10001">
+            <a:ObjectID>30D56F7E-87DB-481A-A377-A1A60FAF33E9</a:ObjectID>
+            <a:Name>CLA_Core</a:Name>
+            <a:Code>CLA_Core_o10001</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\CLD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Show Links intersections=Yes
+Activate automatic link routing=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Show Icon=No
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!"#$%&amp;')*+,-./:;=&gt;?@\]^_`|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject.TextStyle=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Object Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.TextStyle=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;ExclusiveChoice Name="Exclusive Choice" Mandatory="Yes" Display="HorizontalRadios" &gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Location" Attribute="LocationOrName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Package.Stereotype=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package.TextStyle=No
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Display Model Version=Yes
+Generalization.DisplayedStereotype=Yes
+Generalization.DisplayName=No
+Generalization.DisplayedRules=Yes
+Generalization_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="DisplayedStereotype" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Constraint" Attribute="DisplayedRules" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+Realization.DisplayedStereotype=Yes
+Realization.DisplayName=No
+Realization.DisplayedRules=Yes
+Realization_SymbolLayout=
+Dependency.DisplayedStereotype=Yes
+Dependency.DisplayName=No
+Dependency.DisplayedRules=Yes
+Dependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="DisplayedStereotype" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Constraint" Attribute="DisplayedRules" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+Class.Stereotype=Yes
+Class.Constraint=Yes
+Class.Attributes=Yes
+Class.Attributes._Columns=DisplayVisibilityMarker Stereotype DataType InitialValue
+Class.Attributes._Limit=-3
+Class.Operations=Yes
+Class.Operations._Columns=DisplayVisibilityMarker Stereotype SignatureWithParameters ReturnType
+Class.Operations._Limit=-3
+Class.InnerClassifiers=Yes
+Class.Comment=No
+Class.IconPicture=No
+Class.TextStyle=No
+Class_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Class Name" Attribute="DisplayedQualifiedName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Constraint" Attribute="Constraint" Prefix="{" Suffix="}" Alignment="RGHT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardCollection Name="Attributes" Collection="Attributes" Columns="DisplayVisibilityMarker No\r\nDisplayVisibilityKeyword No\r\nDisplayVisibilityIcon No\r\nStereotype No\r\nDisplayName Yes\r\nDataType No\r\nDomain No\r\nInitialValue No" HasLimit="Yes" HideEmpty="No" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardCollection Name="Operations" Collection="Operations" Columns="DisplayVisibilityMarker No\r\nDisplayVisibilityKeyword No\r\nDisplayVisibilityIcon No\r\nStereotype No\r\nSignatureWithoutParameters No\r\nSignatureWithParameters No\r\nReturnType No" HasLimit="Yes" HideEmpty="No" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardCollection Name="Inner Classifiers" Collection="InnerClassifiers" Columns="DisplayInnerIcon Yes\r\nDisplayNameGeneric Yes" HasLimit="No" HideEmpty="Yes" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Interface.Stereotype=Yes
+Interface.Constraint=Yes
+Interface.Attributes=Yes
+Interface.Attributes._Columns=DisplayVisibilityMarker Stereotype DataType InitialValue
+Interface.Attributes._Limit=-3
+Interface.Operations=Yes
+Interface.Operations._Columns=DisplayVisibilityMarker Stereotype SignatureWithParameters ReturnType
+Interface.Operations._Limit=-3
+Interface.InnerClassifiers=Yes
+Interface.Comment=No
+Interface.IconPicture=No
+Interface.TextStyle=No
+Interface_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name="Stereotype" Attribute="Stereotype" Prefix="&amp;lt;&amp;lt;" Suffix="&amp;gt;&amp;gt;" Alignment="CNTR" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Interface Name" Attribute="DisplayedQualifiedName" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Constraint" Attribute="Constraint" Prefix="{" Suffix="}" Alignment="RGHT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;Separator Name="Separator" /&gt;[CRLF] &lt;StandardCollection Name="Attributes" Collection="Attributes" Columns="DisplayVisibilityMarker No\r\nDisplayVisibilityKeyword No\r\nDisplayVisibilityIcon No\r\nStereotype No\r\nDisplayName Yes\r\nDataType No\r\nDomain No\r\nInitialValue No" HasLimit="Yes" HideEmpty="No" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardCollection Name="Operations" Collection="Operations" Columns="DisplayVisibilityMarker No\r\nDisplayVisibilityKeyword No\r\nDisplayVisibilityIcon No\r\nStereotype No\r\nSignatureWithoutParameters No\r\nSignatureWithParameters No\r\nReturnType No" HasLimit="Yes" HideEmpty="No" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardCollection Name="Inner Classifiers" Collection="InnerClassifiers" Columns="DisplayInnerIcon Yes\r\nDisplayNameGeneric Yes" HasLimit="No" HideEmpty="Yes" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Comment" Attribute="Comment" Prefix="" Suffix="" Alignment="LEFT" Caption="" Mandatory="No" /&gt;[CRLF] &lt;StandardAttribute Name="Icon" Attribute="IconPicture" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF] &lt;StandardAttribute Name="Force top align" Attribute="TextStyle" Prefix="" Suffix="" Alignment="CNTR" Caption="" Mandatory="Yes" /&gt;[CRLF]&lt;/Form&gt;
+Port.IconPicture=No
+Port.TextStyle=No
+Port_SymbolLayout=
+Association.RoleAMultiplicity=Yes
+Association.RoleAName=Yes
+Association.RoleAOrdering=Yes
+Association.DisplayedStereotype=No
+Association.DisplayName=No
+Association.DisplayedRules=Yes
+Association.RoleBMultiplicity=Yes
+Association.RoleBName=Yes
+Association.RoleBOrdering=Yes
+Association.RoleMultiplicitySymbol=No
+Association_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF]  &lt;StandardAttribute Name="Multiplicity A" Attribute="RoleAMultiplicity" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Role A" Attribute="RoleAName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Ordering A" Attribute="RoleAOrdering" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="DisplayedStereotype" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Constraint" Attribute="DisplayedRules" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF]  &lt;StandardAttribute Name="Multiplicity B" Attribute="RoleBMultiplicity" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Role B" Attribute="RoleBName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Ordering B" Attribute="RoleBOrdering" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+RequireLink.DisplayedStereotype=Yes
+RequireLink.DisplayName=No
+RequireLink.DisplayedRules=Yes
+RequireLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name="Center" &gt;[CRLF]  &lt;StandardAttribute Name="Stereotype" Attribute="DisplayedStereotype" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Name" Attribute="DisplayName" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF]  &lt;StandardAttribute Name="Constraint" Attribute="DisplayedRules" Prefix="" Suffix="" Caption="" Mandatory="No" /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Source" &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name="Destination" &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+PortShowName=Yes
+PortShowType=No
+PortShowMult=No
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\GNRLLINK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLZSLINK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\DEPDLINK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDCLASS]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+QDNMFont=Arial,8,N
+QDNMFont color=0, 0, 0
+CNTRFont=Arial,8,N
+CNTRFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+ClassPrimaryAttributeFont=Arial,8,U
+ClassPrimaryAttributeFont color=0, 0, 0
+OperationsFont=Arial,8,N
+OperationsFont color=0, 0, 0
+InnerClassifiersFont=Arial,8,N
+InnerClassifiersFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=174 228 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDINTF]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+QDNMFont=Arial,8,N
+QDNMFont color=0, 0, 0
+CNTRFont=Arial,8,N
+CNTRFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+OperationsFont=Arial,8,N
+OperationsFont color=0, 0, 0
+InnerClassifiersFont=Arial,8,N
+InnerClassifiersFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\OOMPORT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=800
+Height=800
+Brush color=174 228 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDASSC]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\INNERLINK]
+Line style=1
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDACLK]
+Line style=1
+Pen=2 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RQLINK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+            <a:PaperSize>(8268, 11693)</a:PaperSize>
+            <a:PageMargins>((315,354), (433,354))</a:PageMargins>
+            <a:PageOrientation>1</a:PageOrientation>
+            <a:PaperSource>15</a:PaperSource>
+            <c:Symbols>
+              <o:ClassSymbol Id="o10008">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-10500,-3400), (10500,3400))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10002" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10023">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((15500,-7000), (36500,7000))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10009" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10030">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((41500,-3400), (62500,3400))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10024" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10039">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((67500,-4300), (88500,4300))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10031" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10044">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-10500,-25000), (10500,-19000))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10040" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10055">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((15500,-27200), (36500,-16800))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10045" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10063">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((41500,-25400), (62500,-18600))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10056" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10077">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((67500,-25400), (88500,-18600))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10064" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10089">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-10500,-47400), (10500,-40600))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10078" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10095">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((15500,-47000), (36500,-41000))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10090" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10105">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((41500,-47000), (62500,-41000))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10096" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10116">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((67500,-47000), (88500,-41000))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10106" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:ClassSymbol Id="o10122">
+                <a:CreationDate>1793056288</a:CreationDate>
+                <a:ModificationDate>1793058264</a:ModificationDate>
+                <a:IconMode>-1</a:IconMode>
+                <a:Rect>((-10500,-69000), (10500,-63000))</a:Rect>
+                <a:LineColor>16744448</a:LineColor>
+                <a:FillColor>16770222</a:FillColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>STRN 0 Arial,8,N
+QDNM 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+                <a:BrushStyle>6</a:BrushStyle>
+                <a:GradientFillMode>65</a:GradientFillMode>
+                <a:GradientEndColor>16777215</a:GradientEndColor>
+                <c:Object>
+                  <o:Class Ref="o10117" />
+                </c:Object>
+              </o:ClassSymbol>
+              <o:AssociationSymbol Id="o10124">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (54000,-21500))</a:Rect>
+                <a:ListOfPoints>((52000,-22000),(0,-44000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10123" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10063" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10089" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10126">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((51500,-22500), (80000,500))</a:Rect>
+                <a:ListOfPoints>((78000,-22000),(52000,0))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10125" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10077" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10030" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10128">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (28000,-43500))</a:Rect>
+                <a:ListOfPoints>((0,-44000),(26000,-44000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10127" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10089" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10095" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10130">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (54000,-43500))</a:Rect>
+                <a:ListOfPoints>((0,-44000),(52000,-44000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10129" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10089" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10105" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10132">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (80000,-43500))</a:Rect>
+                <a:ListOfPoints>((0,-44000),(78000,-44000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10131" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10089" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10116" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10134">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (28000,-21500))</a:Rect>
+                <a:ListOfPoints>((0,-44000),(26000,-22000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10133" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10089" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10055" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10136">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (28000,500))</a:Rect>
+                <a:ListOfPoints>((26000,-44000),(0,0))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10135" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10095" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10008" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10138">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((25500,-500), (54000,500))</a:Rect>
+                <a:ListOfPoints>((26000,0),(52000,0))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10137" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10023" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10030" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10140">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-500), (28000,500))</a:Rect>
+                <a:ListOfPoints>((0,0),(26000,0))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10139" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10008" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10023" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+              <o:AssociationSymbol Id="o10142">
+                <a:CreationDate>1793056534</a:CreationDate>
+                <a:ModificationDate>1793058270</a:ModificationDate>
+                <a:Rect>((-500,-44500), (80000,-21500))</a:Rect>
+                <a:ListOfPoints>((0,-44000),(78000,-22000))</a:ListOfPoints>
+                <a:CornerStyle>1</a:CornerStyle>
+                <a:ArrowStyle>0</a:ArrowStyle>
+                <a:LineColor>16744448</a:LineColor>
+                <a:ShadowColor>12632256</a:ShadowColor>
+                <a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
+                <a:AutomaticRoutingState>3</a:AutomaticRoutingState>
+                <c:Object>
+                  <o:Association Ref="o10141" />
+                </c:Object>
+                <c:SourceSymbol>
+                  <o:ClassSymbol Ref="o10089" />
+                </c:SourceSymbol>
+                <c:DestinationSymbol>
+                  <o:ClassSymbol Ref="o10077" />
+                </c:DestinationSymbol>
+              </o:AssociationSymbol>
+            </c:Symbols>
+          </o:ClassDiagram>
+        </c:ClassDiagrams>
+        <c:DefaultDiagram>
+          <o:ClassDiagram Ref="o10001" />
+        </c:DefaultDiagram>
+        <c:Classes>
+          <o:Class Id="o10002">
+            <a:ObjectID>252554A2-D3BB-4D68-8AAD-8F99424C8902</a:ObjectID>
+            <a:Name>Cliente</a:Name>
+            <a:Code>Cliente_o10002</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Attributes>
+              <o:Attribute Id="o10003">
+                <a:ObjectID>9443EB47-8A40-450E-885E-4865A21B7809</a:ObjectID>
+                <a:Name>codigoCliente</a:Name>
+                <a:Code>codigoCliente_o10003</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10004">
+                <a:ObjectID>5CCFB6A3-672D-41B9-81AC-C4FAD1D62BAA</a:ObjectID>
+                <a:Name>cedula</a:Name>
+                <a:Code>cedula_o10004</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10005">
+                <a:ObjectID>D1953BA4-ECC3-43A0-8439-E182EAE6725C</a:ObjectID>
+                <a:Name>nombre</a:Name>
+                <a:Code>nombre_o10005</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10006">
+                <a:ObjectID>060A9AB3-32C5-46B4-A068-0FCF8A1AF109</a:ObjectID>
+                <a:Name>genero</a:Name>
+                <a:Code>genero_o10006</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10007">
+                <a:ObjectID>ACD7E860-C475-4C46-AD57-DEC09473B4FA</a:ObjectID>
+                <a:Name>fechaNacimiento</a:Name>
+                <a:Code>fechaNacimiento_o10007</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>LocalDate</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+            </c:Attributes>
+            <c:Operations />
+          </o:Class>
+          <o:Class Id="o10009">
+            <a:ObjectID>8EBF3BD6-2685-44F8-9DFD-F9829756E7FB</a:ObjectID>
+            <a:Name>Credito</a:Name>
+            <a:Code>Credito_o10009</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Attributes>
+              <o:Attribute Id="o10010">
+                <a:ObjectID>DECB63B1-C51A-48EC-976F-C4698D63CB89</a:ObjectID>
+                <a:Name>codigoCredito</a:Name>
+                <a:Code>codigoCredito_o10010</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10011">
+                <a:ObjectID>81101DF4-AD1C-4B2B-AE30-27587BB5D005</a:ObjectID>
+                <a:Name>codigoCliente</a:Name>
+                <a:Code>codigoCliente_o10011</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10012">
+                <a:ObjectID>3B2B4749-E00C-453B-9830-BDDAFE599C24</a:ObjectID>
+                <a:Name>cedula</a:Name>
+                <a:Code>cedula_o10012</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10013">
+                <a:ObjectID>AA0D6916-5063-445E-B0FD-5621185DABF8</a:ObjectID>
+                <a:Name>nombre</a:Name>
+                <a:Code>nombre_o10013</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10014">
+                <a:ObjectID>3675B9AE-BCEE-4D32-9A9F-0B24F5FC1040</a:ObjectID>
+                <a:Name>monto</a:Name>
+                <a:Code>monto_o10014</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10015">
+                <a:ObjectID>12650ABD-0DEC-4607-B3F3-55F2A8C12C7C</a:ObjectID>
+                <a:Name>numeroCuotas</a:Name>
+                <a:Code>numeroCuotas_o10015</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10016">
+                <a:ObjectID>62DB0F90-D836-40DE-866A-75965C9BF08C</a:ObjectID>
+                <a:Name>tasaAnual</a:Name>
+                <a:Code>tasaAnual_o10016</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10017">
+                <a:ObjectID>0D804220-F145-4023-9498-34A260950E54</a:ObjectID>
+                <a:Name>cuota</a:Name>
+                <a:Code>cuota_o10017</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10018">
+                <a:ObjectID>B58DE1C1-9F1E-401A-90B4-AC503DF1F880</a:ObjectID>
+                <a:Name>totalIntereses</a:Name>
+                <a:Code>totalIntereses_o10018</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10019">
+                <a:ObjectID>8384F7CA-9ADB-4E52-85CC-33385B76E1D7</a:ObjectID>
+                <a:Name>totalPagar</a:Name>
+                <a:Code>totalPagar_o10019</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10020">
+                <a:ObjectID>710EFFD7-E8CD-460D-9E5E-C430B9AE3878</a:ObjectID>
+                <a:Name>fecha</a:Name>
+                <a:Code>fecha_o10020</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10021">
+                <a:ObjectID>6BDF2A9D-48E7-4F75-AFEE-58C9CFAD01F1</a:ObjectID>
+                <a:Name>estado</a:Name>
+                <a:Code>estado_o10021</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10022">
+                <a:ObjectID>0120B9E4-804C-4D80-892B-2A6BB21918DF</a:ObjectID>
+                <a:Name>tabla</a:Name>
+                <a:Code>tabla_o10022</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>List&lt;CuotaAmortizacion&gt;</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+            </c:Attributes>
+            <c:Operations />
+          </o:Class>
+          <o:Class Id="o10024">
+            <a:ObjectID>DE54F1DD-59B1-4CE0-A40B-D77D3882F1D9</a:ObjectID>
+            <a:Name>CuotaAmortizacion</a:Name>
+            <a:Code>CuotaAmortizacion_o10024</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Attributes>
+              <o:Attribute Id="o10025">
+                <a:ObjectID>6AF0B560-F736-4802-AA88-3072ACB09ECC</a:ObjectID>
+                <a:Name>numeroCuota</a:Name>
+                <a:Code>numeroCuota_o10025</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10026">
+                <a:ObjectID>358738B9-5FE6-4964-B9E9-F229C7F3EC14</a:ObjectID>
+                <a:Name>valorCuota</a:Name>
+                <a:Code>valorCuota_o10026</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10027">
+                <a:ObjectID>1FAEDCAC-112A-46B7-A7FA-2EDC9D6B2954</a:ObjectID>
+                <a:Name>interesPagado</a:Name>
+                <a:Code>interesPagado_o10027</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10028">
+                <a:ObjectID>9984F9D3-0702-4820-AD80-F95B4CCDAE24</a:ObjectID>
+                <a:Name>capitalPagado</a:Name>
+                <a:Code>capitalPagado_o10028</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10029">
+                <a:ObjectID>5983FA28-F456-4C44-943A-896ECFE9EA8D</a:ObjectID>
+                <a:Name>saldo</a:Name>
+                <a:Code>saldo_o10029</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+            </c:Attributes>
+            <c:Operations />
+          </o:Class>
+          <o:Class Id="o10031">
+            <a:ObjectID>24E8D51E-E85E-435A-9788-91722259B1AA</a:ObjectID>
+            <a:Name>MontoMaximo</a:Name>
+            <a:Code>MontoMaximo_o10031</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Attributes>
+              <o:Attribute Id="o10032">
+                <a:ObjectID>F4148BA6-A67C-44E4-A9DF-DA6BB0B1ACC3</a:ObjectID>
+                <a:Name>codigoCliente</a:Name>
+                <a:Code>codigoCliente_o10032</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10033">
+                <a:ObjectID>14B56CD6-BAC3-438D-BC0C-E420BF1D7E83</a:ObjectID>
+                <a:Name>nombre</a:Name>
+                <a:Code>nombre_o10033</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10034">
+                <a:ObjectID>AF03CA7D-0E63-4D3B-853A-F8F7E8ABE666</a:ObjectID>
+                <a:Name>promedioDepositos</a:Name>
+                <a:Code>promedioDepositos_o10034</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10035">
+                <a:ObjectID>C73D7472-4CBB-41D9-A7AA-184D6A48076A</a:ObjectID>
+                <a:Name>promedioRetiros</a:Name>
+                <a:Code>promedioRetiros_o10035</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10036">
+                <a:ObjectID>56934F33-EA84-4328-939B-E352DF0CDE1A</a:ObjectID>
+                <a:Name>numeroDepositos</a:Name>
+                <a:Code>numeroDepositos_o10036</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10037">
+                <a:ObjectID>6D55167A-FF8F-4E17-B704-98F35FC64E29</a:ObjectID>
+                <a:Name>numeroRetiros</a:Name>
+                <a:Code>numeroRetiros_o10037</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>int</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10038">
+                <a:ObjectID>8898DD0C-0629-43E2-BE4F-0B2CCABB847B</a:ObjectID>
+                <a:Name>montoMaximo</a:Name>
+                <a:Code>montoMaximo_o10038</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+            </c:Attributes>
+            <c:Operations />
+          </o:Class>
+          <o:Class Id="o10040">
+            <a:ObjectID>12699C16-E52C-4FCA-A25F-7AF8A1C114BB</a:ObjectID>
+            <a:Name>SolicitudCredito</a:Name>
+            <a:Code>SolicitudCredito_o10040</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Attributes>
+              <o:Attribute Id="o10041">
+                <a:ObjectID>A5CB7488-83B2-4243-A426-8A2964FCAC75</a:ObjectID>
+                <a:Name>codigoCliente</a:Name>
+                <a:Code>codigoCliente_o10041</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>Integer</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10042">
+                <a:ObjectID>69CD363E-94B1-4DF4-90B1-5659B038930A</a:ObjectID>
+                <a:Name>precio</a:Name>
+                <a:Code>precio_o10042</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>BigDecimal</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10043">
+                <a:ObjectID>6991AA01-7788-4536-BE16-4064DF7D8E36</a:ObjectID>
+                <a:Name>numeroCuotas</a:Name>
+                <a:Code>numeroCuotas_o10043</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>Integer</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+            </c:Attributes>
+            <c:Operations />
+          </o:Class>
+          <o:Class Id="o10045">
+            <a:ObjectID>4677B7C7-2840-4230-AB4C-383DBA554EBC</a:ObjectID>
+            <a:Name>VerificacionCredito</a:Name>
+            <a:Code>VerificacionCredito_o10045</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Attributes>
+              <o:Attribute Id="o10046">
+                <a:ObjectID>8E62C260-9613-4C8A-8221-4E5F6EC82762</a:ObjectID>
+                <a:Name>cedula</a:Name>
+                <a:Code>cedula_o10046</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10047">
+                <a:ObjectID>6D49303B-98A3-4F1A-A967-891DFABFF248</a:ObjectID>
+                <a:Name>codigoCliente</a:Name>
+                <a:Code>codigoCliente_o10047</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>Integer</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10048">
+                <a:ObjectID>0F32E788-1BB2-41B2-84D5-485F157157D0</a:ObjectID>
+                <a:Name>nombre</a:Name>
+                <a:Code>nombre_o10048</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>String</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10049">
+                <a:ObjectID>1B67B9A5-D185-49DB-BD24-97F06DBF30A7</a:ObjectID>
+                <a:Name>esCliente</a:Name>
+                <a:Code>esCliente_o10049</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>boolean</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10050">
+                <a:ObjectID>09BDB9A0-7888-485E-9381-2BF89F39F26B</a:ObjectID>
+                <a:Name>depositoUltimoMes</a:Name>
+                <a:Code>depositoUltimoMes_o10050</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>boolean</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10051">
+                <a:ObjectID>DEEB777B-DF96-4C2D-9A9B-08A959C7357E</a:ObjectID>
+                <a:Name>edadValida</a:Name>
+                <a:Code>edadValida_o10051</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>boolean</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10052">
+                <a:ObjectID>40FBAA27-B541-4778-9D6F-3260FD29C027</a:ObjectID>
+                <a:Name>sinCreditoActivo</a:Name>
+                <a:Code>sinCreditoActivo_o10052</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>boolean</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10053">
+                <a:ObjectID>25E14DC7-5431-45FA-B3AA-21121B6D6BA5</a:ObjectID>
+                <a:Name>sujetoCredito</a:Name>
+                <a:Code>sujetoCredito_o10053</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>boolean</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+              <o:Attribute Id="o10054">
+                <a:ObjectID>F7D7F871-01CF-4A75-ADFC-31AE4718CFEB</a:ObjectID>
+                <a:Name>motivos</a:Name>
+                <a:Code>motivos_o10054</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:DataType>List&lt;String&gt;</a:DataType>
+                <a:Attribute.Visibility>-</a:Attribute.Visibility>
+              </o:Attribute>
+            </c:Attributes>
+            <c:Operations />
+          </o:Class>
+          <o:Class Id="o10056">
+            <a:ObjectID>BF128BE8-A5A3-4866-8A03-6A77FCAB170C</a:ObjectID>
+            <a:Name>CreditoControlador</a:Name>
+            <a:Code>CreditoControlador_o10056</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10057">
+                <a:ObjectID>75020734-1DEF-466E-A809-1CF793618816</a:ObjectID>
+                <a:Name>sujetoCredito</a:Name>
+                <a:Code>sujetoCredito_o10057</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Response</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: @PathParam("cedula"</a:Comment>
+              </o:Operation>
+              <o:Operation Id="o10058">
+                <a:ObjectID>C78F0FFE-C377-4FB1-BDF9-DD809F962616</a:ObjectID>
+                <a:Name>montoMaximo</a:Name>
+                <a:Code>montoMaximo_o10058</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Response</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: @PathParam("codigoCliente"</a:Comment>
+              </o:Operation>
+              <o:Operation Id="o10059">
+                <a:ObjectID>5991857C-F95D-4A6E-841A-34F21BF558C3</a:ObjectID>
+                <a:Name>otorgar</a:Name>
+                <a:Code>otorgar_o10059</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Response</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: SolicitudCredito solicitud</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10060">
+                    <a:ObjectID>60475FD8-2D23-4D83-8E34-623BBF5CDCE5</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>solicitud</a:Name>
+                    <a:Code>solicitud_o10060</a:Code>
+                    <a:DataType>SolicitudCredito</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10061">
+                <a:ObjectID>67C144C1-4854-4E03-9252-D381FCB26F9F</a:ObjectID>
+                <a:Name>amortizacion</a:Name>
+                <a:Code>amortizacion_o10061</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Response</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: @PathParam("codigoCredito"</a:Comment>
+              </o:Operation>
+              <o:Operation Id="o10062">
+                <a:ObjectID>0DE5E195-DF4B-4E9D-8565-F9D6F335B4A9</a:ObjectID>
+                <a:Name>creditosCliente</a:Name>
+                <a:Code>creditosCliente_o10062</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Response</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: @PathParam("cedula"</a:Comment>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+          <o:Class Id="o10064">
+            <a:ObjectID>F47FBF83-BB3C-4487-ACF6-D159089D1B09</a:ObjectID>
+            <a:Name>CalculadoraAmortizacion</a:Name>
+            <a:Code>CalculadoraAmortizacion_o10064</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10065">
+                <a:ObjectID>9EC48848-D817-414C-8AC8-1A729F7C9740</a:ObjectID>
+                <a:Name>tasaPeriodo</a:Name>
+                <a:Code>tasaPeriodo_o10065</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>BigDecimal</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: </a:Comment>
+              </o:Operation>
+              <o:Operation Id="o10066">
+                <a:ObjectID>8B99BD59-F8CB-4C2C-8B4F-C10F1A94B765</a:ObjectID>
+                <a:Name>cuotaExacta</a:Name>
+                <a:Code>cuotaExacta_o10066</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>BigDecimal</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: BigDecimal monto, int cuotas</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10067">
+                    <a:ObjectID>71554286-DE14-483F-9878-6624F3FAD5C7</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>monto</a:Name>
+                    <a:Code>monto_o10067</a:Code>
+                    <a:DataType>BigDecimal</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                  <o:Parameter Id="o10068">
+                    <a:ObjectID>8E0C20FA-3394-4B6F-BB59-7FB999FA2B3D</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cuotas</a:Name>
+                    <a:Code>cuotas_o10068</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10069">
+                <a:ObjectID>D2BB78D1-3CE4-47FF-8FF5-4999DCF7A5F6</a:ObjectID>
+                <a:Name>cuota</a:Name>
+                <a:Code>cuota_o10069</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>BigDecimal</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: BigDecimal monto, int cuotas</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10070">
+                    <a:ObjectID>EE9E5536-FB20-4C5E-9F0A-910E208CB3D1</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>monto</a:Name>
+                    <a:Code>monto_o10070</a:Code>
+                    <a:DataType>BigDecimal</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                  <o:Parameter Id="o10071">
+                    <a:ObjectID>5A502F22-F850-40F4-826F-17A001D6C3DA</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cuotas</a:Name>
+                    <a:Code>cuotas_o10071</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10072">
+                <a:ObjectID>A7514DC9-AD2B-454C-95F2-460B311273E3</a:ObjectID>
+                <a:Name>tabla</a:Name>
+                <a:Code>tabla_o10072</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>List&lt;CuotaAmortizacion&gt;</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: BigDecimal monto, int cuotas</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10073">
+                    <a:ObjectID>29C1669B-3F91-49F5-BE7C-56376A2CEEA4</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>monto</a:Name>
+                    <a:Code>monto_o10073</a:Code>
+                    <a:DataType>BigDecimal</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                  <o:Parameter Id="o10074">
+                    <a:ObjectID>42AA1E23-3C15-4A9D-BE9C-52376B948103</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cuotas</a:Name>
+                    <a:Code>cuotas_o10074</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10075">
+                <a:ObjectID>C2D5AA04-A36E-424A-B421-A0D423D9F7A8</a:ObjectID>
+                <a:Name>r2</a:Name>
+                <a:Code>r2_o10075</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>BigDecimal</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: BigDecimal v</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10076">
+                    <a:ObjectID>547655F9-C31D-45EF-9F78-1AE1B608F6AC</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>v</a:Name>
+                    <a:Code>v_o10076</a:Code>
+                    <a:DataType>BigDecimal</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+          <o:Class Id="o10078">
+            <a:ObjectID>09843CA8-05F8-4E90-892B-08142010D66A</a:ObjectID>
+            <a:Name>ServicioCredito</a:Name>
+            <a:Code>ServicioCredito_o10078</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10079">
+                <a:ObjectID>88876550-15F7-4E10-9054-70B23135E421</a:ObjectID>
+                <a:Name>verificarSujeto</a:Name>
+                <a:Code>verificarSujeto_o10079</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>VerificacionCredito</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: String cedula</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10080">
+                    <a:ObjectID>CD6C0377-D431-4664-BBB4-A9AA93DF2469</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cedula</a:Name>
+                    <a:Code>cedula_o10080</a:Code>
+                    <a:DataType>String</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10081">
+                <a:ObjectID>7C6C0471-5BF2-41D9-8B13-647036DDBA84</a:ObjectID>
+                <a:Name>montoMaximo</a:Name>
+                <a:Code>montoMaximo_o10081</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>MontoMaximo</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigoCliente</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10082">
+                    <a:ObjectID>96F49FA2-DD18-4C47-A313-DA49F3BF9EFF</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigoCliente</a:Name>
+                    <a:Code>codigoCliente_o10082</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10083">
+                <a:ObjectID>C469AEEB-6833-4E09-817A-5D6D905DDF4A</a:ObjectID>
+                <a:Name>otorgar</a:Name>
+                <a:Code>otorgar_o10083</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Credito</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: SolicitudCredito s</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10084">
+                    <a:ObjectID>D7AF352E-6E0F-4790-A12B-55FCB03AF70E</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>s</a:Name>
+                    <a:Code>s_o10084</a:Code>
+                    <a:DataType>SolicitudCredito</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10085">
+                <a:ObjectID>43253430-50E9-46EE-87A3-14FF95519FEF</a:ObjectID>
+                <a:Name>consultar</a:Name>
+                <a:Code>consultar_o10085</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Credito</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigoCredito</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10086">
+                    <a:ObjectID>0E21A895-B6E0-4149-A42D-CD9E00724FE5</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigoCredito</a:Name>
+                    <a:Code>codigoCredito_o10086</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10087">
+                <a:ObjectID>0B4212D4-1B65-475C-8D4B-29CC7BEAC4C7</a:ObjectID>
+                <a:Name>creditosCliente</a:Name>
+                <a:Code>creditosCliente_o10087</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>List&lt;Credito&gt;</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: String cedula</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10088">
+                    <a:ObjectID>9347E243-2861-470E-8850-9EE6FFEFC22C</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cedula</a:Name>
+                    <a:Code>cedula_o10088</a:Code>
+                    <a:DataType>String</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+          <o:Class Id="o10090">
+            <a:ObjectID>0B4AEB51-949C-43E4-9B19-062FC45E11E6</a:ObjectID>
+            <a:Name>ClienteDAO</a:Name>
+            <a:Code>ClienteDAO_o10090</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10091">
+                <a:ObjectID>0C6CC302-21A5-4B48-A502-C703FB59BA16</a:ObjectID>
+                <a:Name>seleccionarPorCedula</a:Name>
+                <a:Code>seleccionarPorCedula_o10091</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Cliente</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: String cedula</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10092">
+                    <a:ObjectID>D8CFE362-5AA4-4549-AB63-B86FF4ACC468</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cedula</a:Name>
+                    <a:Code>cedula_o10092</a:Code>
+                    <a:DataType>String</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10093">
+                <a:ObjectID>0B77E43F-BF98-4B62-BC38-53C9C1C2497E</a:ObjectID>
+                <a:Name>seleccionarPorCodigo</a:Name>
+                <a:Code>seleccionarPorCodigo_o10093</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Cliente</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigo</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10094">
+                    <a:ObjectID>4C17A254-8234-4212-A30E-DC99267D4DCE</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigo</a:Name>
+                    <a:Code>codigo_o10094</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+          <o:Class Id="o10096">
+            <a:ObjectID>B5DCF8E8-49FC-43A3-9DE8-757A04FD2A02</a:ObjectID>
+            <a:Name>CreditoDAO</a:Name>
+            <a:Code>CreditoDAO_o10096</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10097">
+                <a:ObjectID>CCF2EE83-3172-48C4-B310-15FC66E91BFE</a:ObjectID>
+                <a:Name>tieneCreditoActivo</a:Name>
+                <a:Code>tieneCreditoActivo_o10097</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>boolean</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigoCliente</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10098">
+                    <a:ObjectID>F0091E62-02F6-4B4D-A6D7-349808EEA9C0</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigoCliente</a:Name>
+                    <a:Code>codigoCliente_o10098</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10099">
+                <a:ObjectID>DDADA154-B43A-4DCB-B45D-CF30FA83ABEF</a:ObjectID>
+                <a:Name>insertar</a:Name>
+                <a:Code>insertar_o10099</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>int</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: Credito c</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10100">
+                    <a:ObjectID>2FE2D0A4-A3F9-40BA-B4F5-0CD3107E1226</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>c</a:Name>
+                    <a:Code>c_o10100</a:Code>
+                    <a:DataType>Credito</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10101">
+                <a:ObjectID>2E702FC2-5128-4355-8DED-C75E82E058D1</a:ObjectID>
+                <a:Name>seleccionar</a:Name>
+                <a:Code>seleccionar_o10101</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Credito</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigoCredito</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10102">
+                    <a:ObjectID>C3BCA613-336B-43C5-ACDC-0A148C33D41E</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigoCredito</a:Name>
+                    <a:Code>codigoCredito_o10102</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10103">
+                <a:ObjectID>3132E092-D08A-4D99-ABDC-0A5A65FF2EFC</a:ObjectID>
+                <a:Name>listarPorCedula</a:Name>
+                <a:Code>listarPorCedula_o10103</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>List&lt;Credito&gt;</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: String cedula</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10104">
+                    <a:ObjectID>C79D87DB-D2CC-459D-BD2C-FF2DC9FC5885</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cedula</a:Name>
+                    <a:Code>cedula_o10104</a:Code>
+                    <a:DataType>String</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+          <o:Class Id="o10106">
+            <a:ObjectID>2C06D4D3-FD72-4CE7-BA47-15F2AEC3929C</a:ObjectID>
+            <a:Name>MovimientoDAO</a:Name>
+            <a:Code>MovimientoDAO_o10106</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10107">
+                <a:ObjectID>009D64BD-EEC9-4B3F-92F0-ED8E5D719555</a:ObjectID>
+                <a:Name>Resumen</a:Name>
+                <a:Code>Resumen_o10107</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>record</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: BigDecimal promedio, int cantidad</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10108">
+                    <a:ObjectID>0EFCA289-0367-40CE-ABA5-77FB59BE39EF</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>promedio</a:Name>
+                    <a:Code>promedio_o10108</a:Code>
+                    <a:DataType>BigDecimal</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                  <o:Parameter Id="o10109">
+                    <a:ObjectID>A32542E1-DA1B-48A1-BBB0-4B363273BF2A</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cantidad</a:Name>
+                    <a:Code>cantidad_o10109</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10110">
+                <a:ObjectID>49761968-7087-485D-98E0-D7F675B98263</a:ObjectID>
+                <a:Name>tieneDepositoUltimoMes</a:Name>
+                <a:Code>tieneDepositoUltimoMes_o10110</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>boolean</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigoCliente</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10111">
+                    <a:ObjectID>7384923E-4534-4FEC-BD37-E3E51AEB1D22</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigoCliente</a:Name>
+                    <a:Code>codigoCliente_o10111</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10112">
+                <a:ObjectID>C8440F8C-320C-4D61-93D2-193C3F2F924E</a:ObjectID>
+                <a:Name>resumen</a:Name>
+                <a:Code>resumen_o10112</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Resumen</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: int codigoCliente, String tipo, int meses</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10113">
+                    <a:ObjectID>AA9635A1-C23B-4676-A49C-5E7C3F851699</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>codigoCliente</a:Name>
+                    <a:Code>codigoCliente_o10113</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                  <o:Parameter Id="o10114">
+                    <a:ObjectID>422A8406-FCE6-4D5C-95FE-E42050818411</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>tipo</a:Name>
+                    <a:Code>tipo_o10114</a:Code>
+                    <a:DataType>String</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                  <o:Parameter Id="o10115">
+                    <a:ObjectID>C55540BB-791B-4789-86E7-6461B6066AA0</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>meses</a:Name>
+                    <a:Code>meses_o10115</a:Code>
+                    <a:DataType>int</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+          <o:Class Id="o10117">
+            <a:ObjectID>4585F8EB-13D9-49ED-A337-5AF55C7F67CD</a:ObjectID>
+            <a:Name>ConexionBD</a:Name>
+            <a:Code>ConexionBD_o10117</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <a:UseParentNamespace>0</a:UseParentNamespace>
+            <c:Operations>
+              <o:Operation Id="o10118">
+                <a:ObjectID>B014833A-88C4-4730-9EFE-9DC123166E88</a:ObjectID>
+                <a:Name>getConexion</a:Name>
+                <a:Code>getConexion_o10118</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>Connection</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: </a:Comment>
+              </o:Operation>
+              <o:Operation Id="o10119">
+                <a:ObjectID>BA92A700-D80F-4411-9694-32832E5C5D8D</a:ObjectID>
+                <a:Name>cerrar</a:Name>
+                <a:Code>cerrar_o10119</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>void</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: Connection cn</a:Comment>
+                <c:Parameters>
+                  <o:Parameter Id="o10120">
+                    <a:ObjectID>B4729CE0-384F-40C2-B3D4-E290116C9C62</a:ObjectID>
+                    <a:CreationDate>1793857278</a:CreationDate>
+                    <a:ModificationDate>1793857278</a:ModificationDate>
+                    <a:Creator>Codex</a:Creator>
+                    <a:Modifier>Codex</a:Modifier>
+                    <a:Name>cn</a:Name>
+                    <a:Code>cn_o10120</a:Code>
+                    <a:DataType>Connection</a:DataType>
+                    <a:ParameterType>I</a:ParameterType>
+                  </o:Parameter>
+                </c:Parameters>
+              </o:Operation>
+              <o:Operation Id="o10121">
+                <a:ObjectID>33F146C5-3908-4131-9F82-A226CAC7C234</a:ObjectID>
+                <a:Name>getUrl</a:Name>
+                <a:Code>getUrl_o10121</a:Code>
+                <a:CreationDate>1793857278</a:CreationDate>
+                <a:Creator>Codex</a:Creator>
+                <a:ModificationDate>1793857278</a:ModificationDate>
+                <a:Modifier>Codex</a:Modifier>
+                <a:ReturnType>String</a:ReturnType>
+                <a:TemplateBody>%DefaultBody%</a:TemplateBody>
+                <a:Operation.Visibility>+</a:Operation.Visibility>
+                <a:Comment>Parámetros: </a:Comment>
+              </o:Operation>
+            </c:Operations>
+            <c:Attributes />
+          </o:Class>
+        </c:Classes>
+        <c:Associations>
+          <o:Association Id="o10123">
+            <a:ObjectID>BE1B2C23-BC5F-4555-ACB9-D7DE8D2966A0</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10123</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10078" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10056" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>CreditoControlador --&gt; ServicioCredito; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10125">
+            <a:ObjectID>DAC90CD1-1377-45A7-8072-02A4D0AD03A2</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10125</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10024" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10064" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>CalculadoraAmortizacion --&gt; CuotaAmortizacion; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10127">
+            <a:ObjectID>75511764-8EFE-4062-954E-76B08E8D7E6A</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10127</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10090" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10078" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>ServicioCredito --&gt; ClienteDAO; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10129">
+            <a:ObjectID>97E7BC6A-5736-4960-B0DD-280219F8E30A</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10129</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10096" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10078" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>ServicioCredito --&gt; CreditoDAO; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10131">
+            <a:ObjectID>D5B9F171-1854-46CA-8E3F-415DF4FA871E</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10131</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10106" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10078" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>ServicioCredito --&gt; MovimientoDAO; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10133">
+            <a:ObjectID>B5984B39-D1E3-4A18-885E-B00DE6FD1A2A</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10133</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10045" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10078" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>ServicioCredito --&gt; VerificacionCredito; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10135">
+            <a:ObjectID>4C959C83-704B-40D0-8F82-93A9712B01E3</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10135</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10002" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10090" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>ClienteDAO --&gt; Cliente; usa</a:Comment>
+          </o:Association>
+          <o:Association Id="o10137">
+            <a:ObjectID>8985D3ED-98AB-4D9B-B6E1-C10AFA1E9FFA</a:ObjectID>
+            <a:Name>tabla (incluye fila 0)</a:Name>
+            <a:Code>tabla_incluye_fila_0_o10137</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10024" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10009" />
+            </c:Object2>
+            <a:RoleAMultiplicity>1..*</a:RoleAMultiplicity>
+            <a:RoleBMultiplicity>1</a:RoleBMultiplicity>
+            <a:RoleBIndicator>C</a:RoleBIndicator>
+            <a:Comment>Credito *-- CuotaAmortizacion; tabla (incluye fila 0)</a:Comment>
+          </o:Association>
+          <o:Association Id="o10139">
+            <a:ObjectID>4643ECAD-7B88-42DE-BF7D-7E487743B217</a:ObjectID>
+            <a:Name>codigoCliente</a:Name>
+            <a:Code>codigoCliente_o10139</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10009" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10002" />
+            </c:Object2>
+            <a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
+            <a:RoleBMultiplicity>1</a:RoleBMultiplicity>
+            <a:Comment>Cliente -- Credito; codigoCliente</a:Comment>
+          </o:Association>
+          <o:Association Id="o10141">
+            <a:ObjectID>EE5C9201-0C38-43C4-99BE-52B7AC21FAB4</a:ObjectID>
+            <a:Name>usa</a:Name>
+            <a:Code>usa_o10141</a:Code>
+            <a:CreationDate>1793857278</a:CreationDate>
+            <a:Creator>Codex</a:Creator>
+            <a:ModificationDate>1793857278</a:ModificationDate>
+            <a:Modifier>Codex</a:Modifier>
+            <c:Object1>
+              <o:Class Ref="o10064" />
+            </c:Object1>
+            <c:Object2>
+              <o:Class Ref="o10078" />
+            </c:Object2>
+            <a:RoleAMultiplicity />
+            <a:RoleBMultiplicity />
+            <a:Comment>ServicioCredito ..&gt; CalculadoraAmortizacion; usa</a:Comment>
+          </o:Association>
+        </c:Associations>
+      </o:Model>
+    </c:Children>
+  </o:RootObject>
+</Model>
